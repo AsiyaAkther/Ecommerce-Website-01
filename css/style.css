@@ -1,0 +1,153 @@
+/* **************************** Common codes start here ********************* */
+@font-face {
+    font-family: Muli;
+    src: url(/muli/Muli-Regular.ttf);
+}
+:root{
+    --primary-color:#ff2832;
+    --border-color:#ffebec;
+}
+body{
+    background-color: #ffffff;
+    font-family:Muli;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* **************************** Common codes end here ********************* */
+
+/* **************************** Header start here ********************* */
+
+/* header top start */
+.header-top{
+    min-height: 60px;
+    min-width:100%;
+    background-color:var(--primary-color);
+    position:relative;
+}
+.header-top:before{
+    position:absolute;
+    height:100%;
+    width:100%;
+    background-image: url(../images/header-top-bg_01.png);
+    content: "";
+    top:0;
+    left:0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header-top img{
+    width:80px;
+}
+.t-img-1{
+    padding-left:8%;
+}
+.t-img-2{
+    padding-left: 10%;
+}
+.t-img-3{
+    padding-left:8%;
+}
+.t-img-4{
+    padding-left:4%;
+}
+.t-img-5{
+    padding-left:1%;
+}
+.t-img-6{
+    margin-left:-30px;
+}
+/* header top end */
+
+/* hotline number div start here */
+.hotline-number{
+    background-color: var(--border-color);
+    padding:5px 0 ;
+    height:35px;
+    color: #585858;
+}
+.hotline-number p{
+    font-size:1rem;
+}
+.hotline-text{
+    border-right:1px solid #dddddd;
+}
+.hotline-text a{
+    color: #585858;
+    text-decoration: none;
+}
+.fa-mobile-alt{
+    color:var(--primary-color);
+    margin-right: 5px;
+}
+/* hotline number div end here */
+
+/* login area start */
+.login-area{
+    padding:2% 0; 
+    box-sizing: border-box;
+}
+.search-form{
+    border: 1px solid var(--primary-color);
+    padding:0;
+    border-radius:0;
+    width:500px;
+}
+#search-box{
+    width:304px;
+    height:38px;
+    border:none;
+    background-color: #fff;
+    padding: 0 10px;
+}
+#search-box:focus{
+    outline: none;
+}
+#search-select{
+    height:40px;
+    width:120px;
+    border:1px solid var(--border-color);
+    border-right:none;
+    background-color: #fff;
+    color:#b9b8bf;
+    padding:0 10px;
+}
+#search-select:focus{
+    outline: none;
+}
+#search-box::placeholder{
+    color:#b9b8bf;
+}
+.search-icon{
+    display: inline;
+}
+.fa-search{
+   padding:13px 25px;
+   background-color: var(--primary-color); 
+   color:#fff;
+}
+.login-cart{
+    padding-left: 30px;
+    border-right:1px solid var(--border-color);
+}
+.login-cart p{
+    margin:0;
+    font-size: 1rem;
+    color:#111111;
+}
+.cart-para-1{
+    color:#b9b8bf !important;
+}
+.fa-shopping-cart,.zero{
+    color:var(--primary-color);
+}
+.log-in-btn{
+    margin-left: 10px;
+    background: var(--primary-color);
+    border:none;
+}
+.fa-user{
+    margin-right: 10px;
+}
+/* login area end */
