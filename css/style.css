@@ -6,6 +6,7 @@
 :root{
     --primary-color:#ff2832;
     --border-color:#ffebec;
+    --white-color:#ffffff;
 }
 body{
     background-color: #ffffff;
@@ -151,3 +152,18 @@ body{
     margin-right: 10px;
 }
 /* login area end */
+/* navbar area start */
+.menu-bar{
+    background-color: #1f2a4f;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: var(--white-color);
+    font-size: 18px;
+    text-transform: uppercase;
+    word-spacing: 3px;
+    border-right:1px solid #37446c;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: var(--white-color);
+}
+/* navbar area end */
