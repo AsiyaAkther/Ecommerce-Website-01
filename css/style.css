@@ -1,7 +1,11 @@
 /* **************************** Common codes start here ********************* */
 @font-face {
     font-family: Muli;
-    src: url(/muli/Muli-Regular.ttf);
+    src: url(../muli/Muli-Regular.ttf);
+}
+@font-face {
+    font-family: light-muli;
+    src: url(../muli/Muli-Light.ttf);
 }
 :root{
     --primary-color:#ff2832;
@@ -14,6 +18,62 @@ body{
     margin:0;
     padding:0;
     box-sizing: border-box;
+}
+.section-title h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    color:var(--white-color);
+    padding:0.6rem 2rem;
+}
+.section-items{
+    border:1px solid #cccccc;
+    margin-top:-11px;
+    border-top:0;
+    margin-bottom:20px;
+}
+.single-item{
+    padding:2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+.single-item img{
+    width:100px;
+    height:100px;
+    margin-bottom:10px;
+}
+.single-item p{
+    font-size:16px;
+}
+.single-item ul{
+    margin-left:-32px;
+}
+.single-item ul li{
+    list-style-type: none;
+    float:left;
+    margin-right:5px;
+}
+.list-number{
+    color:#999999;
+}
+.fa-star{
+    color:#ffcc33;
+}
+.single-item .item-lower-p{
+    display:block;
+    width:100%;
+    font-weight: 700;
+    color:var(--primary-color);
+    
+}
+.item-lower-span{
+    color:#999999;
+    margin-left:10px;
+    text-decoration: line-through;
+}
+.item-search,.item-cart{
+    color:#999999;
+    padding:none;
+    background:none;
 }
 /* **************************** Common codes end here ********************* */
 
@@ -91,12 +151,15 @@ body{
 }
 .search-form{
     border: 1px solid var(--primary-color);
+    border-right:none;
+    border-radius: 0 10px 10px 0;
     padding:0;
     border-radius:0;
-    width:500px;
+    width:100%;
+    margin: 0;
 }
 #search-box{
-    width:304px;
+    width:56%;
     height:38px;
     border:none;
     background-color: #fff;
@@ -106,13 +169,14 @@ body{
     outline: none;
 }
 #search-select{
-    height:40px;
-    width:120px;
+    height:39px;
+    width:30%;
     border:1px solid var(--border-color);
     border-right:none;
     background-color: #fff;
     color:#b9b8bf;
-    padding:0 10px;
+    padding:0px 10px;
+    font-size:16px;
 }
 #search-select:focus{
     outline: none;
@@ -122,11 +186,16 @@ body{
 }
 .search-icon{
     display: inline;
+    width:14%; 
+    margin:0;
 }
-.fa-search{
-   padding:13px 25px;
-   background-color: var(--primary-color); 
-   color:#fff;
+.search-form .fa-search{
+    padding:14px 25px;
+    color:#fff;
+    margin:0;
+    background-color: var(--primary-color);
+    padding: 13px 24.4px;
+    font-size: 18px;
 }
 .login-cart{
     padding-left: 30px;
@@ -140,7 +209,7 @@ body{
 .cart-para-1{
     color:#b9b8bf !important;
 }
-.fa-shopping-cart,.zero{
+.login-cart .fa-shopping-cart,.zero{
     color:var(--primary-color);
 }
 .log-in-btn{
@@ -152,6 +221,7 @@ body{
     margin-right: 10px;
 }
 /* login area end */
+
 /* navbar area start */
 .menu-bar{
     background-color: #1f2a4f;
@@ -167,3 +237,80 @@ body{
     color: var(--white-color);
 }
 /* navbar area end */
+
+/* slider area start */
+.slider-item{
+    background-color: var(--primary-color);
+    margin: 20px 0;
+    padding:5rem 5rem 0 5rem;
+}
+.slider-item img{
+    height:300px;
+}
+.slider-item h1{
+    font-size: 35px;
+    color:var(--white-color);
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.slider-item .head-span{
+    font-weight: 900;
+}
+.slider-item p{
+    color:var(--white-color);
+    font-size:18px;
+    width:420px;
+}
+.slider-item .slide-btn{
+    border:none;
+    border-radius:0px;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+    font-size: 18px;
+}
+/* slider area end */
+
+/* **************************** Header end here ********************* */
+
+/* **************************** main start here ********************* */
+
+/* top n best brand section strat */
+#top-n-best-brand-card{
+    margin-bottom:20px;
+}
+.orange-card{
+    background-image: url(../images/orange-slide-img_03.png);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding:5.5rem;
+}
+#top-n-best-brand-card h2{
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:var(--white-color);
+    margin-bottom: 15px;
+}
+#top-n-best-brand-card p{
+    font-size: 18px;
+    color:var(--white-color);
+}
+.blue-card{
+    background-image: url(../images/blue-slide-img_03.png);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding:6.6rem 5rem;
+}
+/* top n best brand section end */
+
+/* hot deals section start */
+#hot-deal-section .section-title{
+    background:var(--primary-color);
+}
+/* hot deals section end */
+
+/* **************************** main start here ********************* */
