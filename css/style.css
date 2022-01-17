@@ -19,12 +19,18 @@ body{
     padding:0;
     box-sizing: border-box;
 }
+
+/* section title for all section start */
 .section-title h3{
     text-transform: uppercase;
     font-size: 1.8rem;
     color:var(--white-color);
     padding:0.6rem 2rem;
+    margin-bottom:0;
 }
+/* section title for all section end */
+
+/* items style start */
 .section-items{
     border:1px solid #cccccc;
     border-top:0;
@@ -104,9 +110,32 @@ body{
     color:#999999;
     padding:10px;
 }
-.tab-section{
-    margin-bottom: 50px;
+/* items style end */
+
+/* tab style start */
+section .tabs-nav{
+    border:1px solid #cccccc;
+    border-bottom: none;
 }
+section .my-tab-item{
+    
+    border-bottom:1px solid #cccccc;
+}
+section .nav-tabs .nav-link{
+    border:none;
+    color:#000;
+    font-weight: 700;
+    font-size:20px;
+}
+section .tabs-nav .tab-nav-link{
+    border:1px solid #cccccc;
+    border-top:none;
+}
+section .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border:none;
+    color:#000;
+}
+/* tab style end */
 /* **************************** Common codes end here ********************* */
 
 /* **************************** Header start here ********************* */
@@ -388,26 +417,17 @@ body{
 #hot-deal-section .section-title{
     background:var(--primary-color);
 }
-#hot-deal-section .section-title h3{
-    margin-bottom:0;
-}
 /* hot deals section end */
 
 /* digital n electronics section start */
 #digital-n-electronics-section .section-title{
     background-color: #9966cc;
 }
-#digital-n-electronics-section .section-title h3{
-    margin-bottom:0;
-}
 .digital-n-elec-img-area{
     background-image: url(../images/digitalnelectronics-area-img_03.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
     padding:5rem 3rem;
     margin-bottom: 10px;
 }
@@ -440,4 +460,34 @@ body{
     color:#666666;
 }
 /* digital n electronics section end */
+
+/* fasion & accessories  section start*/
+#fashion-n-accessories-area .section-title{
+    background-color: #ff9933;
+}
+.fashion-n-accessories-img-area{
+    background-image: url(../images/fashion-n-assoceries-img_03.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:5rem 3rem;
+    margin-bottom: 10px;
+}
+.fashion-n-accessories-img-area .fashion-para-one{
+    font-size:35px;
+    margin-bottom:5px;
+    color: #ff9933;
+}
+.fashion-n-accessories-img-area .fashion-para-two{
+    font-size: 30px;
+    color:#000;
+}
+.fashion-n-accessories-img-area .img-area-btn{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    background-color: #ff9933;
+    border:1px solid #ff9933;
+}
+/* fashion & accessories  section end*/
 /* **************************** main start here ********************* */
