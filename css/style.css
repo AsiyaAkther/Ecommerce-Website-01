@@ -36,7 +36,6 @@ body{
     border-top:0;
     margin-bottom:20px;
 }
-
 .single-item{
     width:20%;
     padding:2rem 0 2rem 1rem;
@@ -113,27 +112,21 @@ body{
 /* items style end */
 
 /* tab style start */
-section .tabs-nav{
-    border:1px solid #cccccc;
+.tab-section .nav-tabs{
     border-bottom: none;
+    border-top: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
 }
-section .my-tab-item{
-    
-    border-bottom:1px solid #cccccc;
-}
-section .nav-tabs .nav-link{
-    border:none;
-    color:#000;
-    font-weight: 700;
-    font-size:20px;
-}
-section .tabs-nav .tab-nav-link{
+.tab-section .nav-tabs .nav-item{
     border:1px solid #cccccc;
-    border-top:none;
 }
-section .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    border:none;
+.tab-section .nav-tabs .nav-item .nav-link{
+    font-size: 20px;
+    font-weight: 700;
     color:#000;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border:1px solid transparent;
 }
 /* tab style end */
 /* **************************** Common codes end here ********************* */
@@ -490,4 +483,48 @@ section .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
     border:1px solid #ff9933;
 }
 /* fashion & accessories  section end*/
-/* **************************** main start here ********************* */
+
+/* furnitures & home decores section start */
+#furniture-n-home-decore-area .section-title{
+    background-color: #33cccc;
+}
+.furniture-n-home-decore-img-area{
+    background-image: url(../images/furniture-decore-img_03.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:5rem 3rem;
+    margin-bottom: 10px;
+    padding-left:65%;
+}
+.furniture-n-home-decore-img-area p{
+    margin-bottom: 5px;
+}
+.furniture-n-home-decore-img-area .available-text{
+    font-size:30px;
+    color: #33cccc;
+    font-weight: 700;
+}
+.furniture-n-home-decore-img-area .stock-limited-text{
+    font-size:30px;
+    color:#000;
+}
+.furniture-n-home-decore-img-area .buy-now{
+    color:#666666;
+}
+.furniture-n-home-decore-img-area .starting{
+    font-size: 25px;
+    font-weight: 700;
+}
+.furniture-n-home-decore-img-area .price{
+    font-size: 30px;
+    color:var(--primary-color);
+}
+.furniture-n-home-decore-img-area .shop-now-btn{
+    margin-top: 15px;
+    font-size: 25px;
+    background-color: #33cccc;
+    border: 1px solid #33cccc;
+}
+ /* furnitures & home decores section end */ 
+/* **************************** main start here *********************  */
