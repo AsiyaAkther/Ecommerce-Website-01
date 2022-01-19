@@ -467,12 +467,12 @@ body{
     margin-bottom: 10px;
 }
 .fashion-n-accessories-img-area .fashion-para-one{
-    font-size:35px;
+    font-size:40px;
     margin-bottom:5px;
     color: #ff9933;
 }
 .fashion-n-accessories-img-area .fashion-para-two{
-    font-size: 30px;
+    font-size: 35px;
     color:#000;
 }
 .fashion-n-accessories-img-area .img-area-btn{
@@ -501,12 +501,12 @@ body{
     margin-bottom: 5px;
 }
 .furniture-n-home-decore-img-area .available-text{
-    font-size:30px;
+    font-size:35px;
     color: #33cccc;
     font-weight: 700;
 }
 .furniture-n-home-decore-img-area .stock-limited-text{
-    font-size:30px;
+    font-size:35px;
     color:#000;
 }
 .furniture-n-home-decore-img-area .buy-now{
@@ -527,4 +527,152 @@ body{
     border: 1px solid #33cccc;
 }
  /* furnitures & home decores section end */ 
+
+ /* tools & equipments section start */
+#toola-n-equipments-area .section-title{
+    background-color: #ff6633;
+}
+.tools-n-equipments-img-area{
+    background-image: url(../images/tools-equipments-img_03.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:5rem 3rem;
+    margin-bottom: 10px;
+}
+.tools-n-equipments-img-area p{
+    margin-bottom:5px;
+}
+.tools-n-equipments-img-area .use-update-text{
+    font-size:30px;
+    font-weight:700;
+    color:#ff6633;
+}
+.tools-n-equipments-img-area .life-easy-text{
+    font-size: 30px;
+    color:#666666;
+}
+.tools-n-equipments-img-area .makes-your-text{
+    font-weight: 700;
+    color:#000;
+}
+.tools-n-equipments-img-area .treecutter-text{
+    font-size: 35px;
+    color:#000;
+}
+.tools-n-equipments-img-area .eco-text{
+    color:#ff6633;
+}
+.tools-n-equipments-img-area .weight-text{
+    font-size: 20px;
+    color:#666666;
+}
+ /* tools & equipments section end */
+
+ /* security section start*/
+#security{
+    background-color: var(--primary-color);
+    padding: 50px 0;
+}
+#security img{
+    width:100px;
+    margin-right: 10px;
+}
+#security p{
+    display: inline;
+    font-size: 20px;
+    color:var(--white-color);
+}
+ /* security section end */
+
 /* **************************** main start here *********************  */
+
+/* **************************** footer start here *********************  */
+.footer{
+    background: url(../images/home-page-footer-bg_02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:20px 0;
+    color:var(--white-color);
+}
+.footer-content-area{
+    padding:80px 0;
+}
+.footer h5{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer ul{
+    margin-left: -20px;
+}
+.footer ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.footer ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color:#666666;
+}
+.footer ul li a:hover{
+    color:var(--primary-color);
+    transition: 1s;
+}
+.footer-logo{
+    display: flex;
+    align-items: flex-end;
+}
+.footer img{
+    width:80px;
+    margin: 0;
+}
+.footer .logo-text-1{
+    font-size: 45px;
+    color:var(--primary-color);
+    font-weight: 700;
+}
+.footer .logo-p{
+    font-size: 25px;
+}
+.footer .icon-list li{
+    float:left;
+    padding:10px;
+    margin: 15px 10px 15px 0;
+}
+.footer .icon-list a{
+    color:var(--white-color);
+    font-size: 20px;
+}
+.footer-search{
+    clear: both;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.footer-search button{
+    border:none;
+    padding: 13px 30px;
+    background: var(--primary-color);
+}
+#email-input{
+    border:none;
+    font-size: 20px;
+    width: 85%;
+    background: transparent;
+    border:1px solid #666666;
+    border-right: none;
+    padding:11px 10px;
+}
+.fa-paper-plane{
+    color:var(--white-color);
+    font-size: 25px;
+}
+.copyright-area{
+    padding:50px 0;
+    border-top:1px solid #333333;
+    color:#666666;
+}
+/* **************************** footer start here *********************  */
