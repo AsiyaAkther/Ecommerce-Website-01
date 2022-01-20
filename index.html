@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="css/slick.css">
         <!-- icon css -->
         <link rel="stylesheet" href="css/all.css">
+        <!-- meanmenu css -->
+        <link rel="stylesheet" href="css/meanmenu.css">
         <!-- theme css -->
         <link rel="stylesheet" href="css/style.css">
         <title>Butic</title>
@@ -23,22 +25,22 @@
             <div class="header-top">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-2 t-img-1">
+                        <div class="col-sm-2 col-md-2 t-img-1">
                             <img src="images/header-top-logo_02.png" alt="">
                         </div>
-                        <div class="col-md-2 t-img-2">
+                        <div class="col-sm-2 col-md-2 t-img-2">
                             <img src="images/header-top-img-1_02.png" alt="">
                         </div>
-                        <div class="col-md-2 t-img-3">
+                        <div class="col-sm-2 col-md-2 t-img-3">
                             <img src="images/header-top-img-2_02.png" alt="">
                         </div>
-                        <div class="col-md-2 t-img-4">
+                        <div class="col-sm-2 col-md-2 t-img-4">
                             <img src="images/header-top-img-3_02.png" alt="">
                         </div>
-                        <div class="col-md-2 t-img-5">
+                        <div class="col-sm-2 col-md-2 t-img-5">
                             <img src="images/heder-top-img-4_02.png" alt="">
                         </div>
-                        <div class="col-md-2 t-img-6">
+                        <div class="col-sm-2 col-md-2 t-img-6">
                             <img src="images/header-top-img-5_03.png" alt="">
                         </div>
                     </div>
@@ -49,12 +51,12 @@
             <div class="hotline-number">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-10">
+                        <div class="col-sm-8 col-md-10">
                             <div class="hotline-text">
                                 <a href="#"><p><i class="fas fa-mobile-alt"></i> Hotline: (+800) 123 456 789</p></a>
                             </div>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-sm-4 col-md-2">
                             <div class="dollar">
                                 <p>Dollar (USD)</p>
                             </div>
@@ -67,10 +69,10 @@
             <div class="login-area">
                 <div class="container">
                     <div class="row d-flex align-items-center">
-                        <div class="col-md-2">
+                        <div class="col-sm-3 col-md-2">
                             <img class="logo-img" src="images/logo_03.png" alt="">
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-sm-9 col-md-6">
                             <div class="search-form">
                                 <input type="text" placeholder="Search your product" id="search-box">
                                 <select name="search-select" id="search-select">
@@ -82,11 +84,11 @@
                                 <i class="fas fa-search search-box-icon"></i>
                             </div>
                         </div>
-                        <div class="col-md-2 login-cart">
+                        <div class="col-sm-6 col-md-2 login-cart">
                             <p class="cart-para-1"><i class="fas fa-shopping-cart"></i> <span class="zero">0</span> Items</p>
                             <p>CART</p>
                         </div>
-                        <div class="col-md-2">
+                        <div class="col-sm-6 col-md-2">
                             <button class="btn btn-primary log-in-btn"><i class="fas fa-user"></i>LOGIN</button>
                         </div>
                     </div>
@@ -101,10 +103,28 @@
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                                    <li class="nav-item">
-                                        <a class="nav-link active" aria-current="page" href="#"><i class="fas fa-list"></i> Categories</a>
+                                    <li class="nav-item dropdown">
+                                        <a class="dropdown-toggle nav-link active" aria-current="page" href="#" id="dropdownMenuButton1" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-list"></i> Categories</a>
+                                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                            <li class="dropdown inner-dropdown"><a class="dropdown-item dropdown-toggle" href="#" id="dropdownMenuButton1" role="button" data-bs-toggle="dropdown" aria-expanded="false">Leptop</a>
+                                                <ul class="dropdown-menu inner-dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                                    <li><a class="dropdown-item" href="#">Dell</a></li>
+                                                    <li><a class="dropdown-item" href="#">Hp</a></li>
+                                                    <li><a class="dropdown-item" href="#">Lenovo</a></li>
+                                                    <li><a class="dropdown-item" href="#">Walton</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a class="dropdown-item" href="#">Mobile</a></li>
+                                            <li><a class="dropdown-item" href="#">Monitor</a></li>
+                                            <li><a class="dropdown-item" href="#">Gajet</a></li>
+                                            <li><a class="dropdown-item" href="#">Watch</a></li>
+                                            <li><a class="dropdown-item" href="#">Baby Shop</a></li>
+                                            <li><a class="dropdown-item" href="#">Women</a></li>
+                                            <li><a class="dropdown-item" href="#">Fashion</a></li>
+                                            <li><a class="dropdown-item" href="#">Contact</a></li>
+                                          </ul>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Weekly Featured</a>
@@ -172,14 +192,18 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="orange-card">
-                                <h2>top picks in popular tech & more</h2>
-                                <p>Stock limited, fast come, fast serve!</p>
+                                <div class="card-content">
+                                    <h2>top picks in popular tech & more</h2>
+                                    <p>Stock limited, fast come, fast serve!</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="blue-card">
-                                <h2>Best buy products</h2>
-                                <p>Stock limited, fast come, fast serve!</p>
+                                <div class="card-content">
+                                    <h2>Best buy products</h2>
+                                    <p>Stock limited, fast come, fast serve!</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -2278,6 +2302,7 @@
         <script src="js/jquery-3.6.0.min.js"></script>
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/slick.min.js"></script>
+        <script src="js/jquery.meanmenu.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>
