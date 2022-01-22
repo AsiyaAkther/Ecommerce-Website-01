@@ -723,7 +723,7 @@ body{
 
 
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
     /* common codes start here */
     /* section title for all section start */
     .section-title h3{
