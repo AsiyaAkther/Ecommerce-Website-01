@@ -756,6 +756,7 @@ body{
     margin-bottom:10px;
 }
 .item-hover-div{
+    right:-24%;
     transform: rotate(0deg);
 }
 /* items style end */
@@ -1008,92 +1009,11 @@ body{
 /* **************************** main start here *********************  */
 
 /* **************************** footer start here *********************  */
-.footer{
-    background: url(../images/home-page-footer-bg_02.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding:20px 0;
-    color:var(--white-color);
-}
 .footer-content-area{
     padding:0 0;
 }
 .footer h5{
-    font-size: 25px;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-.footer ul{
-    margin-left: -20px;
-}
-.footer ul li{
-    list-style-type: none;
-    margin-bottom: 10px;
-}
-.footer ul li a{
-    font-size: 20px;
-    text-decoration: none;
-    color:#666666;
-}
-.footer ul li a:hover{
-    color:var(--primary-color);
-    transition: 1s;
-}
-.footer-logo{
-    display: flex;
-    align-items: flex-end;
-}
-.footer img{
-    width:80px;
-    margin: 0;
-}
-.footer .logo-text-1{
-    font-size: 45px;
-    color:var(--primary-color);
-    font-weight: 700;
-}
-.footer .logo-p{
-    font-size: 25px;
-}
-.footer .icon-list li{
-    float:left;
-    padding:10px;
-    margin: 15px 10px 15px 0;
-}
-.footer .icon-list a{
-    color:var(--white-color);
-    font-size: 20px;
-}
-.footer-search{
-    clear: both;
-    display: flex;
-    align-items: center;
-    border-radius: 5px;
-}
-.footer-search button{
-    border:none;
-    padding: 13px 30px;
-    background: var(--primary-color);
-}
-#email-input{
-    border:none;
-    font-size: 20px;
-    width: 85%;
-    background: transparent;
-    border:1px solid #666666;
-    border-right: none;
-    padding:11px 10px;
-}
-.fa-paper-plane{
-    color:var(--white-color);
-    font-size: 25px;
-}
-.copyright-area{
-    padding:50px 0;
-    border-top:1px solid #333333;
-    color:#666666;
+    font-size: 1.3rem;
 }
 /* **************************** footer end here *********************  */
 }
