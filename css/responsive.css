@@ -1,0 +1,289 @@
+
+
+
+/* @media screen and (max-width: 600px) { */
+    /* common codes start here */
+    /* section title for all section start */
+    /* .section-title h3{
+        font-size: 1.1rem;
+    } */
+    /* section title for all section end */
+
+    /* items style start */
+    /* .section-items{
+        margin-bottom:20px;
+        display:flex;
+        flex-wrap: wrap;
+        align-items: start;
+        padding:0 1rem;
+    }
+    .single-item{
+        height:250px;
+        width:50%;
+        margin:5px 0;
+    }
+    .single-item p{
+        font-size:14px;
+    } */
+    /* items style end */
+
+    /* tab style start */
+    /* .tab-section .nav-tabs .nav-item .nav-link{
+        font-size: 14px;
+    } */
+    /* tab style end */
+    /* common codes end here */
+    /* header top start */
+    /* .header-top{
+        padding:10px 0;
+    }
+    .header-top:before{
+        display: none;
+    }
+    .header-top img{
+        width:45px;
+    } */
+    /* header top end */
+
+    /* hotline number div start here */
+    /* .hotline-number p{
+        font-size:0.9rem;
+    } */
+    /* hotline number div end here */
+
+    /* login area start */
+    /* .login-area{
+        padding:1% 0; 
+    }
+    .logo-img{
+        width:120px;
+        margin-left: -10px;
+    }
+    /* search area start*/
+    /* #search-box{
+        padding:5px;
+        font-size: 14px;
+        
+    }
+    #search-select{
+        padding:5px 0;
+        font-size: 12px;
+        width:30%;
+    }
+    .search-box-icon{
+        width:10%;
+        padding:10px 12px;
+    } */
+    /* search area end */
+    /* .login-cart{
+        margin-top:20px;
+        padding-left: 10px;
+    }
+    .login-cart p{
+        font-size: 0.9rem;
+    }
+    .log-in-btn{
+        margin-top: 20px;
+        font-size: 0.9rem;
+    } */ 
+    /* login area end */
+
+    /* navbar area start */
+    /* .dropdown-menu{
+        background: transparent;
+    }
+    .dropdown-item{
+        color:var(--white-color);
+    } */
+    /* navbar end */
+    /* slider area start */
+    /* .slider-item{
+        margin: 10px 0;
+        margin-bottom: 0;
+        padding:0 1rem 0 1rem;
+        flex-direction: column;
+    }
+    .slider-img{
+        padding-top:0;
+        padding-left: 45%;
+    }
+    .slider-item img{
+        height:200px;
+        width:auto;
+    }
+    .slider-text{
+        height:250px;
+    }
+    .slider-item h1{
+        font-size: 1.8rem;
+        width:90%;
+        margin: 0 auto;
+    }
+    .slider-item p{
+        font-size:1rem;
+        padding: 0 5rem 0 1.7rem;
+    }
+    .slider-item .slide-btn{
+        font-size: 1rem;
+        width:130px;
+        margin-top: 10px;
+        margin-left:2rem;
+    }
+    .slick-dots{
+        height:0px;
+    } */
+    /* slider area end */
+    /* top n best brand section strat */
+    /* #top-n-best-brand-card{
+        margin-bottom:20px;
+    }
+    .card-content{
+        padding:2.5rem 5.5rem;
+    }
+    #top-n-best-brand-card .card-content h2{
+        font-size: 1.5rem;    
+    }
+    #top-n-best-brand-card .card-content p{
+        font-size: 16px;    
+    }
+    .blue-card{
+        margin-top: 10px;
+    } */
+    /* top n best brand section end */
+    /* digital n electronics section start */
+    /* .digital-n-elec-img-area{
+        padding:1rem;
+        margin-bottom: 10px;
+    }
+    .dig-elec-para{
+        font-size:1.2rem;
+    }
+    .makes-para{
+        font-size:1.3rem;
+    }
+    .washing-para{
+        font-size: 1.3rem;
+    }
+    .washing-spin-text{
+        font-size: 1rem;
+    } */
+    /* digital n electronics section end */
+    /* fasion & accessories  section start*/
+    /* .fashion-n-accessories-img-area{
+        padding:1rem;
+    }
+    .fashion-n-accessories-img-area .fashion-para-one{
+        font-size:1.4rem;
+    }
+    .fashion-n-accessories-img-area .fashion-para-two{
+        font-size: 1.3rem;
+    }
+    .fashion-n-accessories-img-area .img-area-btn{
+        margin-top: 10px;
+        font-size: 1rem;
+    } */
+    /* fashion & accessories  section end*/
+
+    /* .furniture-n-home-decore-img-area{
+        padding:1rem;
+        padding-left:50%;
+    }
+    .furniture-n-home-decore-img-area .available-text{
+        font-size:1.5rem;
+    }
+    .furniture-n-home-decore-img-area .stock-limited-text{
+        font-size:1.3rem;
+    }
+    .furniture-n-home-decore-img-area .starting{
+        font-size: 1rem;
+    }
+    .furniture-n-home-decore-img-area .price{
+        font-size: 1rem;
+    }
+    .furniture-n-home-decore-img-area .shop-now-btn{
+        font-size: 1rem;
+    } */
+     /* furnitures & home decores section end */ 
+      /* tools & equipments section start */
+    /* .tools-n-equipments-img-area{
+        padding:1rem;
+    }
+    .tools-n-equipments-img-area .use-update-text{
+        font-size:1.3rem;
+    }
+    .tools-n-equipments-img-area .life-easy-text{
+        font-size: 1.4rem;
+    }
+    .tools-n-equipments-img-area .treecutter-text{
+        font-size: 1.4rem;
+    }
+    .tools-n-equipments-img-area .weight-text{
+        font-size: 1rem;
+    } */
+    /* tools & equipments section end */
+    /* security section start */
+    /* #security{
+        padding: 20px 0;
+    }
+    #security img{
+        width:50px;
+        margin-bottom: 10px;
+    }
+    #security p{
+        font-size: 0.8rem;
+    }
+    .security-item-sm{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: center;
+    } */
+    /* security section end */
+    /* **************************** footer start here *********************  */
+    /* .footer-content-area{
+        padding:0;
+    }
+    .footer h5{
+        font-size: 1.1rem;
+        margin-bottom:10px;
+    }
+    .footer ul{
+        margin-left: -25px;
+    }
+    .footer ul li{
+        margin-bottom: 5px;
+    }
+    .footer ul li a{
+        font-size: 0.9rem;
+    }
+    .footer img{
+        width:60px;
+    }
+    .footer .logo-text-1{
+        font-size: 2rem;
+    }
+    .footer .logo-p{
+        font-size: 1.2rem;
+    }
+    .footer .icon-list li{
+        padding:5px;
+    }
+    .footer-search{
+        margin-bottom: 20px;
+    }
+    .footer-search button{
+        padding: 7px 25px;
+    }
+    #email-input{
+        font-size: 1rem;
+        width: 85%;
+        padding:6px 10px;
+    }
+    .fa-paper-plane{
+        font-size: 1.1rem;
+    }
+    .copyright-area{
+        text-align: center;
+    } */
+    /* **************************** footer end here *********************  */
+/* }*/ 

@@ -722,290 +722,378 @@ body{
 /* **************************** footer end here *********************  */
 
 
-
-@media screen and (max-width: 600px) {
-    /* common codes start here */
+@media screen and (max-width:450px){
     /* section title for all section start */
-    .section-title h3{
-        font-size: 1.1rem;
-    }
-    /* section title for all section end */
+.section-title h3{
+    font-size: 1rem;
+    font-weight: 700;
+}
+/* section title for all section end */
 
-    /* items style start */
-    .section-items{
-        margin-bottom:20px;
-        display:flex;
-        flex-wrap: wrap;
-        align-items: start;
-        padding:0 1rem;
-    }
-    .single-item{
-        height:250px;
-        width:50%;
-        margin:5px 0;
-    }
-    .single-item p{
-        font-size:14px;
-    }
-    /* items style end */
+/* items style start */
+.section-items{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.single-item{
+    width:100%;
+    padding-bottom:0;
+}
+.single-item img{
+    width:200px;
+    height:auto;
+    margin:0 auto;
+}
+.single-item p{
+    margin:0 auto;
+    margin-bottom:10px;
+}
+.single-item ul{
+    margin-left:0px;
+    width:55%;
+    margin:0 auto;
+    margin-bottom:10px;
+}
+.item-hover-div{
+    transform: rotate(0deg);
+}
+/* items style end */
 
-    /* tab style start */
-    .tab-section .nav-tabs .nav-item .nav-link{
-        font-size: 14px;
-    }
-    /* tab style end */
-    /* common codes end here */
-    /* header top start */
-    .header-top{
-        padding:10px 0;
-    }
-    .header-top:before{
-        display: none;
-    }
-    .header-top img{
-        width:45px;
-    }
-    /* header top end */
+/* tab style start */
+.tab-section .nav-tabs .nav-item .nav-link{
+    font-size: 14px;
+    padding:10px 2px;
+}
+/* tab style end */
+    /* **************************** Header start here ********************* */
 
-    /* hotline number div start here */
-    .hotline-number p{
-        font-size:0.9rem;
-    }
-    /* hotline number div end here */
+/* header top start */
+.header-top{
+    min-height: 60px;
+    padding:10px 0;
+}
+.header-top:before{
+    display: none;
+}
+.header-top img{
+    width:40px;
+}
+.t-img-1,.t-img-2,.t-img-3,.t-img-4,.t-img-5,.t-img-6{
+    padding:0;
+}
+/* header top end */
 
-    /* login area start */
-    .login-area{
-        padding:1% 0; 
-    }
-    .logo-img{
-        width:120px;
-        margin-left: -10px;
-    }
-    /* search area start*/
-    #search-box{
-        padding:5px;
-        font-size: 14px;
-        
-    }
-    #search-select{
-        padding:5px 0;
-        font-size: 12px;
-        width:30%;
-    }
-    .search-box-icon{
-        width:10%;
-        padding:10px 12px;
-    }
-    /* search area end */
-    .login-cart{
-        margin-top:20px;
-        padding-left: 10px;
-    }
-    .login-cart p{
-        font-size: 0.9rem;
-    }
-    .log-in-btn{
-        margin-top: 20px;
-        font-size: 0.9rem;
-    }
-    /* login area end */
+/* hotline number div start here */
+.hotline-number p{
+    font-size:0.8rem;
+    padding:0;
+}
+.hotline-text{
+    border-right:1px solid #dddddd;
+}
+.hotline-text a{
+    color: #585858;
+    text-decoration: none;
+}
+.fa-mobile-alt{
+    color:var(--primary-color);
+    margin-right: 5px;
+}
+/* hotline number div end here */
 
-    /* navbar area start */
-    .dropdown-menu{
-        background: transparent;
-    }
-    .dropdown-item{
-        color:var(--white-color);
-    }
-    /* navbar end */
-    /* slider area start */
-    .slider-item{
-        margin: 10px 0;
-        margin-bottom: 0;
-        padding:0 1rem 0 1rem;
-        flex-direction: column;
-    }
-    .slider-img{
-        padding-top:0;
-        padding-left: 45%;
-    }
-    .slider-item img{
-        height:200px;
-        width:auto;
-    }
-    .slider-text{
-        height:250px;
-    }
-    .slider-item h1{
-        font-size: 1.8rem;
-        width:90%;
-        margin: 0 auto;
-    }
-    .slider-item p{
-        font-size:1rem;
-        padding: 0 5rem 0 1.7rem;
-    }
-    .slider-item .slide-btn{
-        font-size: 1rem;
-        width:130px;
-        margin-top: 10px;
-        margin-left:2rem;
-    }
-    .slick-dots{
-        height:0px;
-    }
-    /* slider area end */
-    /* top n best brand section strat */
-    #top-n-best-brand-card{
-        margin-bottom:20px;
-    }
-    .card-content{
-        padding:2.5rem 5.5rem;
-    }
-    #top-n-best-brand-card .card-content h2{
-        font-size: 1.5rem;    
-    }
-    #top-n-best-brand-card .card-content p{
-        font-size: 16px;    
-    }
-    .blue-card{
-        margin-top: 10px;
-    }
-    /* top n best brand section end */
-    /* digital n electronics section start */
-    .digital-n-elec-img-area{
-        padding:1rem;
-        margin-bottom: 10px;
-    }
-    .dig-elec-para{
-        font-size:1.2rem;
-    }
-    .makes-para{
-        font-size:1.3rem;
-    }
-    .washing-para{
-        font-size: 1.3rem;
-    }
-    .washing-spin-text{
-        font-size: 1rem;
-    }
-    /* digital n electronics section end */
-    /* fasion & accessories  section start*/
-    .fashion-n-accessories-img-area{
-        padding:1rem;
-    }
-    .fashion-n-accessories-img-area .fashion-para-one{
-        font-size:1.4rem;
-    }
-    .fashion-n-accessories-img-area .fashion-para-two{
-        font-size: 1.3rem;
-    }
-    .fashion-n-accessories-img-area .img-area-btn{
-        margin-top: 10px;
-        font-size: 1rem;
-    }
-    /* fashion & accessories  section end*/
+/* login area start */
+.login-area{
+    margin-bottom: 20px;
+}
+.logo-img{
+    margin-bottom:20px;
+}
+/* search area start*/
+.search-form{
+    margin-bottom:20px;
+}
+#search-box{
+    width:60%;
+    padding:10px 5px;
+    font-size: 16px;
+}
+#search-select{
+    width:35%;
+    padding:10px 0;
+    font-size: 12px;
+}
+.search-box-icon{
+    width:5%;
+    padding:16px 30px;
+}
+/* search area end */
+.login-btn-div{
+    text-align: right;
+}
+/* login area end */
 
-    .furniture-n-home-decore-img-area{
-        padding:1rem;
-        padding-left:50%;
-    }
-    .furniture-n-home-decore-img-area .available-text{
-        font-size:1.5rem;
-    }
-    .furniture-n-home-decore-img-area .stock-limited-text{
-        font-size:1.3rem;
-    }
-    .furniture-n-home-decore-img-area .starting{
-        font-size: 1rem;
-    }
-    .furniture-n-home-decore-img-area .price{
-        font-size: 1rem;
-    }
-    .furniture-n-home-decore-img-area .shop-now-btn{
-        font-size: 1rem;
-    }
-     /* furnitures & home decores section end */ 
-      /* tools & equipments section start */
-    .tools-n-equipments-img-area{
-        padding:1rem;
-    }
-    .tools-n-equipments-img-area .use-update-text{
-        font-size:1.3rem;
-    }
-    .tools-n-equipments-img-area .life-easy-text{
-        font-size: 1.4rem;
-    }
-    .tools-n-equipments-img-area .treecutter-text{
-        font-size: 1.4rem;
-    }
-    .tools-n-equipments-img-area .weight-text{
-        font-size: 1rem;
-    }
-    /* tools & equipments section end */
-    /* security section start */
-    #security{
-        padding: 20px 0;
-    }
-    #security img{
-        width:50px;
-        margin-bottom: 10px;
-    }
-    #security p{
-        font-size: 0.8rem;
-    }
-    .security-item-sm{
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        justify-content: center;
-    }
-    /* security section end */
-    /* **************************** footer start here *********************  */
-    .footer-content-area{
-        padding:0;
-    }
-    .footer h5{
-        font-size: 1.1rem;
-        margin-bottom:10px;
-    }
-    .footer ul{
-        margin-left: -25px;
-    }
-    .footer ul li{
-        margin-bottom: 5px;
-    }
-    .footer ul li a{
-        font-size: 0.9rem;
-    }
-    .footer img{
-        width:60px;
-    }
-    .footer .logo-text-1{
-        font-size: 2rem;
-    }
-    .footer .logo-p{
-        font-size: 1.2rem;
-    }
-    .footer .icon-list li{
-        padding:5px;
-    }
-    .footer-search{
-        margin-bottom: 20px;
-    }
-    .footer-search button{
-        padding: 7px 25px;
-    }
-    #email-input{
-        font-size: 1rem;
-        width: 85%;
-        padding:6px 10px;
-    }
-    .fa-paper-plane{
-        font-size: 1.1rem;
-    }
-    .copyright-area{
-        text-align: center;
-    }
-    /* **************************** footer end here *********************  */
+/* navbar area start */
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1rem;
+    border-right:none;
+    margin-bottom: 10px;
+}
+.dropdown-item{
+    color:#fff;
+    font-size: 1rem;
+}
+.dropdown-menu{
+    background: transparent;
+}
+.dropdown-toggle{
+    height:30px;
+}
+.dropdown-toggle::after {
+    display: inline;
+    font-size: 30px;
+    vertical-align: -27px; 
+}
+/* navbar area end */
+
+/* slider area start */
+.slider-item{
+    margin: 10px 0;
+    padding:0 20px;
+}
+.slider-img{
+    padding-top:0;
+}
+.slider-item img{
+    height:300px;
+}
+.slider-text{
+    padding-top: 2rem;
+    height:auto;
+}
+.slider-item h1{
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+}
+.slider-item p{
+    font-size:1rem;
+    padding-right: 20px;
+}
+.slider-item .slide-btn{
+    font-size: 1rem;
+    width:130px;
+    margin-top: 10px;
+}
+/* slider area end */
+
+/* **************************** Header end here ********************* */
+
+/* **************************** main start here ********************* */
+
+/* top n best brand section strat */
+#top-n-best-brand-card{
+    margin-bottom:20px;
+}
+.orange-card{
+    margin-bottom: 10px;
+}
+.card-content{
+    padding:3.5rem 2rem;
+}
+#top-n-best-brand-card .card-content h2{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    
+}
+#top-n-best-brand-card .card-content p{
+    font-size: 14px;
+    color:var(--white-color);
+    
+}
+/* top n best brand section end */
+
+/* digital n electronics section start */
+.digital-n-elec-img-area{
+    padding:1rem 0.5rem;
+}
+.dig-elec-para{
+    font-size:1.2rem;
+}
+.makes-para{
+    font-size:1.2rem;
+}
+.washing-para{
+    margin:5px 0;
+    font-size: 1.2rem;
+}
+.washing-spin-text{
+    font-size: 1rem;
+    color:#666666;
+}
+/* digital n electronics section end */
+
+/* fasion & accessories  section start*/
+.fashion-n-accessories-img-area{
+    padding:1rem;
+}
+.fashion-n-accessories-img-area .fashion-para-one{
+    font-size:1.2rem;
+}
+.fashion-n-accessories-img-area .fashion-para-two{
+    font-size:1.2rem;
+}
+.fashion-n-accessories-img-area .img-area-btn{
+    font-size: 1rem;
+}
+/* fashion & accessories  section end*/
+
+/* furnitures & home decores section start */
+.furniture-n-home-decore-img-area{
+    padding:1rem;
+    padding-left:30%;
+}
+.furniture-n-home-decore-img-area .available-text{
+    font-size:1.2rem;
+}
+.furniture-n-home-decore-img-area .stock-limited-text{
+    font-size:1.2rem;
+}
+.furniture-n-home-decore-img-area .starting{
+    font-size: 1rem;
+}
+.furniture-n-home-decore-img-area .price{
+    font-size: 1rem;
+}
+.furniture-n-home-decore-img-area .shop-now-btn{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+ /* furnitures & home decores section end */ 
+
+ /* tools & equipments section start */
+.tools-n-equipments-img-area{
+    padding:1rem;
+}
+.tools-n-equipments-img-area .use-update-text{
+    font-size:1.2rem;
+}
+.tools-n-equipments-img-area .life-easy-text{
+    font-size: 1.2rem;
+}
+.tools-n-equipments-img-area .treecutter-text{
+    font-size: 1.3rem;
+}
+.tools-n-equipments-img-area .weight-text{
+    font-size: 1rem;
+}
+ /* tools & equipments section end */
+
+ /* security section start*/
+#security{
+    background-color: var(--primary-color);
+    padding: 10px 0;
+}
+#security img{
+    width:60px;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+#security p{
+    display: inline;
+    font-size: 20px;
+    color:var(--white-color);
+}
+ /* security section end */
+
+/* **************************** main start here *********************  */
+
+/* **************************** footer start here *********************  */
+.footer{
+    background: url(../images/home-page-footer-bg_02.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:20px 0;
+    color:var(--white-color);
+}
+.footer-content-area{
+    padding:0 0;
+}
+.footer h5{
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer ul{
+    margin-left: -20px;
+}
+.footer ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.footer ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color:#666666;
+}
+.footer ul li a:hover{
+    color:var(--primary-color);
+    transition: 1s;
+}
+.footer-logo{
+    display: flex;
+    align-items: flex-end;
+}
+.footer img{
+    width:80px;
+    margin: 0;
+}
+.footer .logo-text-1{
+    font-size: 45px;
+    color:var(--primary-color);
+    font-weight: 700;
+}
+.footer .logo-p{
+    font-size: 25px;
+}
+.footer .icon-list li{
+    float:left;
+    padding:10px;
+    margin: 15px 10px 15px 0;
+}
+.footer .icon-list a{
+    color:var(--white-color);
+    font-size: 20px;
+}
+.footer-search{
+    clear: both;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+.footer-search button{
+    border:none;
+    padding: 13px 30px;
+    background: var(--primary-color);
+}
+#email-input{
+    border:none;
+    font-size: 20px;
+    width: 85%;
+    background: transparent;
+    border:1px solid #666666;
+    border-right: none;
+    padding:11px 10px;
+}
+.fa-paper-plane{
+    color:var(--white-color);
+    font-size: 25px;
+}
+.copyright-area{
+    padding:50px 0;
+    border-top:1px solid #333333;
+    color:#666666;
+}
+/* **************************** footer end here *********************  */
 }
