@@ -1,4 +1,5 @@
 /* **************************** Common codes start here ********************* */
+/* for all body */
 @font-face {
     font-family: Muli;
     src: url(../muli/Muli-Regular.ttf);
@@ -18,8 +19,12 @@ body{
     margin:0;
     padding:0;
     box-sizing: border-box;
+    overflow: hidden;
 }
-
+/* for all body */
+/* **********************************************************************************
+*******************************HOME PAGE DESIGN START*****************************
+********************************************************************************** */
 /* section title for all section start */
 .section-title h3{
     text-transform: uppercase;
@@ -436,7 +441,7 @@ body{
     left:0;
     content:"";
     background-color:#333366;
-    opacity:0.5m;
+    opacity:0.5;
     width:0;
     height:100%;
     visibility:hidden;
@@ -629,7 +634,7 @@ body{
 }
  /* security section end */
 
-/* **************************** main start here *********************  */
+/* **************************** main end here *********************  */
 
 /* **************************** footer start here *********************  */
 .footer{
@@ -721,299 +726,308 @@ body{
 }
 /* **************************** footer end here *********************  */
 
+/* **********************************************************************************
+*******************************HOME PAGE DESIGN end*****************************
+********************************************************************************** */
+
+/* ************* RESPONSIVE DESIGN FOR MOBILE VERSION STRAT HERE *********************************** */
 
 @media screen and (max-width:450px){
+    /* *** common codes start here *** */
     /* section title for all section start */
-.section-title h3{
-    font-size: 1rem;
-    font-weight: 700;
-}
-/* section title for all section end */
+    .section-title h3{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    /* section title for all section end */
 
-/* items style start */
-.section-items{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-}
-.single-item{
-    width:100%;
-    padding-bottom:0;
-}
-.single-item img{
-    width:200px;
-    height:auto;
-    margin:0 auto;
-}
-.single-item p{
-    margin:0 auto;
-    margin-bottom:10px;
-}
-.single-item ul{
-    margin-left:0px;
-    width:55%;
-    margin:0 auto;
-    margin-bottom:10px;
-}
-.item-hover-div{
-    right:-24%;
-    transform: rotate(0deg);
-}
-/* items style end */
+    /* items style start */
+    .section-items{
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .single-item{
+        width:100%;
+        padding-bottom:0;
+    }
+    .single-item img{
+        width:200px;
+        height:auto;
+        margin:0 auto;
+    }
+    .single-item p{
+        margin:0 auto;
+        margin-bottom:10px;
+    }
+    .single-item ul{
+        margin-left:0px;
+        width:55%;
+        margin:0 auto;
+        margin-bottom:10px;
+    }
+    .item-hover-div{
+        right:-23%;
+        transform: rotate(0deg);
+    }
+    /* items style end */
 
-/* tab style start */
-.tab-section .nav-tabs .nav-item .nav-link{
-    font-size: 14px;
-    padding:10px 2px;
-}
-/* tab style end */
-    /* **************************** Header start here ********************* */
+    /* tab style start */
+    .tab-section .nav-tabs .nav-item .nav-link{
+        font-size: 14px;
+        padding:10px 2px;
+    }
+    /* tab style end */
+    /* *** common codes ends here *** */
+    /* *** Header start here *** */
 
-/* header top start */
-.header-top{
-    min-height: 60px;
-    padding:10px 0;
-}
-.header-top:before{
-    display: none;
-}
-.header-top img{
-    width:40px;
-}
-.t-img-1,.t-img-2,.t-img-3,.t-img-4,.t-img-5,.t-img-6{
-    padding:0;
-}
-/* header top end */
+    /* header top start */
+    .header-top{
+        min-height: 60px;
+        padding:10px 0;
+    }
+    .header-top:before{
+        display: none;
+    }
+    .header-top img{
+        width:40px;
+    }
+    .t-img-1,.t-img-2,.t-img-3,.t-img-4,.t-img-5,.t-img-6{
+        padding:0;
+    }
+    /* header top end */
 
-/* hotline number div start here */
-.hotline-number p{
-    font-size:0.8rem;
-    padding:0;
-}
-.hotline-text{
-    border-right:1px solid #dddddd;
-}
-.hotline-text a{
-    color: #585858;
-    text-decoration: none;
-}
-.fa-mobile-alt{
-    color:var(--primary-color);
-    margin-right: 5px;
-}
-/* hotline number div end here */
+    /* hotline number div start here */
+    .hotline-number p{
+        font-size:0.8rem;
+        padding:0;
+    }
+    .hotline-text{
+        border-right:1px solid #dddddd;
+    }
+    .hotline-text a{
+        color: #585858;
+        text-decoration: none;
+    }
+    .fa-mobile-alt{
+        color:var(--primary-color);
+        margin-right: 5px;
+    }
+    /* hotline number div end here */
 
-/* login area start */
-.login-area{
-    margin-bottom: 20px;
-}
-.logo-img{
-    margin-bottom:20px;
-}
-/* search area start*/
-.search-form{
-    margin-bottom:20px;
-}
-#search-box{
-    width:60%;
-    padding:10px 5px;
-    font-size: 16px;
-}
-#search-select{
-    width:35%;
-    padding:10px 0;
-    font-size: 12px;
-}
-.search-box-icon{
-    width:5%;
-    padding:16px 30px;
-}
-/* search area end */
-.login-btn-div{
-    text-align: right;
-}
-/* login area end */
+    /* login area start */
+    .login-area{
+        margin-bottom: 20px;
+    }
+    .logo-img{
+        margin-bottom:20px;
+    }
+    /* search area start*/
+    .search-form{
+        margin-bottom:20px;
+    }
+    #search-box{
+        width:60%;
+        padding:10px 5px;
+        font-size: 16px;
+    }
+    #search-select{
+        width:35%;
+        padding:10px 0;
+        font-size: 12px;
+    }
+    .search-box-icon{
+        width:5%;
+        padding:16px 30px;
+    }
+    /* search area end */
+    .login-btn-div{
+        text-align: right;
+    }
+    /* login area end */
 
-/* navbar area start */
-.navbar-light .navbar-nav .nav-link {
-    font-size: 1rem;
-    border-right:none;
-    margin-bottom: 10px;
-}
-.dropdown-item{
-    color:#fff;
-    font-size: 1rem;
-}
-.dropdown-menu{
-    background: transparent;
-}
-.dropdown-toggle{
-    height:30px;
-}
-.dropdown-toggle::after {
-    display: inline;
-    font-size: 30px;
-    vertical-align: -27px; 
-}
-/* navbar area end */
+    /* navbar area start */
+    .navbar-light .navbar-nav .nav-link {
+        font-size: 1rem;
+        border-right:none;
+        margin-bottom: 10px;
+    }
+    .dropdown-item{
+        color:#fff;
+        font-size: 1rem;
+    }
+    .dropdown-menu{
+        background: transparent;
+    }
+    .dropdown-toggle{
+        height:30px;
+    }
+    .dropdown-toggle::after {
+        display: inline;
+        font-size: 30px;
+        vertical-align: -27px; 
+    }
+    /* navbar area end */
 
-/* slider area start */
-.slider-item{
-    margin: 10px 0;
-    padding:0 20px;
-}
-.slider-img{
-    padding-top:0;
-}
-.slider-item img{
-    height:300px;
-}
-.slider-text{
-    padding-top: 2rem;
-    height:auto;
-}
-.slider-item h1{
-    font-size: 1.6rem;
-    margin-bottom: 20px;
-}
-.slider-item p{
-    font-size:1rem;
-    padding-right: 20px;
-}
-.slider-item .slide-btn{
-    font-size: 1rem;
-    width:130px;
-    margin-top: 10px;
-}
-/* slider area end */
+    /* slider area start */
+    .slider-item{
+        margin: 10px 0;
+        padding:0 20px;
+    }
+    .slider-img{
+        padding-top:0;
+    }
+    .slider-item img{
+        height:300px;
+    }
+    .slider-text{
+        padding-top: 2rem;
+        height:auto;
+    }
+    .slider-item h1{
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+    .slider-item p{
+        font-size:1rem;
+        padding-right: 20px;
+    }
+    .slider-item .slide-btn{
+        font-size: 1rem;
+        width:130px;
+        margin-top: 10px;
+    }
+    /* slider area end */
 
-/* **************************** Header end here ********************* */
+    /* *** Header end here *** */
 
-/* **************************** main start here ********************* */
+    /* *** main start here *** */
 
-/* top n best brand section strat */
-#top-n-best-brand-card{
-    margin-bottom:20px;
-}
-.orange-card{
-    margin-bottom: 10px;
-}
-.card-content{
-    padding:3.5rem 2rem;
-}
-#top-n-best-brand-card .card-content h2{
-    font-size: 1.2rem;
-    margin-bottom: 15px;
-    
-}
-#top-n-best-brand-card .card-content p{
-    font-size: 14px;
-    color:var(--white-color);
-    
-}
-/* top n best brand section end */
+    /* top n best brand section strat */
+    #top-n-best-brand-card{
+        margin-bottom:20px;
+    }
+    .orange-card{
+        margin-bottom: 10px;
+    }
+    .card-content{
+        padding:3.5rem 2rem;
+    }
+    #top-n-best-brand-card .card-content h2{
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+        
+    }
+    #top-n-best-brand-card .card-content p{
+        font-size: 14px;
+        color:var(--white-color);
+        
+    }
+    /* top n best brand section end */
 
-/* digital n electronics section start */
-.digital-n-elec-img-area{
-    padding:1rem 0.5rem;
-}
-.dig-elec-para{
-    font-size:1.2rem;
-}
-.makes-para{
-    font-size:1.2rem;
-}
-.washing-para{
-    margin:5px 0;
-    font-size: 1.2rem;
-}
-.washing-spin-text{
-    font-size: 1rem;
-    color:#666666;
-}
-/* digital n electronics section end */
+    /* digital n electronics section start */
+    .digital-n-elec-img-area{
+        padding:1rem 0.5rem;
+    }
+    .dig-elec-para{
+        font-size:1.2rem;
+    }
+    .makes-para{
+        font-size:1.2rem;
+    }
+    .washing-para{
+        margin:5px 0;
+        font-size: 1.2rem;
+    }
+    .washing-spin-text{
+        font-size: 1rem;
+        color:#666666;
+    }
+    /* digital n electronics section end */
 
-/* fasion & accessories  section start*/
-.fashion-n-accessories-img-area{
-    padding:1rem;
-}
-.fashion-n-accessories-img-area .fashion-para-one{
-    font-size:1.2rem;
-}
-.fashion-n-accessories-img-area .fashion-para-two{
-    font-size:1.2rem;
-}
-.fashion-n-accessories-img-area .img-area-btn{
-    font-size: 1rem;
-}
-/* fashion & accessories  section end*/
+    /* fasion & accessories  section start*/
+    .fashion-n-accessories-img-area{
+        padding:1rem;
+    }
+    .fashion-n-accessories-img-area .fashion-para-one{
+        font-size:1.2rem;
+    }
+    .fashion-n-accessories-img-area .fashion-para-two{
+        font-size:1.2rem;
+    }
+    .fashion-n-accessories-img-area .img-area-btn{
+        font-size: 1rem;
+    }
+    /* fashion & accessories  section end*/
 
-/* furnitures & home decores section start */
-.furniture-n-home-decore-img-area{
-    padding:1rem;
-    padding-left:30%;
-}
-.furniture-n-home-decore-img-area .available-text{
-    font-size:1.2rem;
-}
-.furniture-n-home-decore-img-area .stock-limited-text{
-    font-size:1.2rem;
-}
-.furniture-n-home-decore-img-area .starting{
-    font-size: 1rem;
-}
-.furniture-n-home-decore-img-area .price{
-    font-size: 1rem;
-}
-.furniture-n-home-decore-img-area .shop-now-btn{
-    margin-top: 10px;
-    font-size: 1rem;
-}
- /* furnitures & home decores section end */ 
+    /* furnitures & home decores section start */
+    .furniture-n-home-decore-img-area{
+        padding:1rem;
+        padding-left:30%;
+    }
+    .furniture-n-home-decore-img-area .available-text{
+        font-size:1.2rem;
+    }
+    .furniture-n-home-decore-img-area .stock-limited-text{
+        font-size:1.2rem;
+    }
+    .furniture-n-home-decore-img-area .starting{
+        font-size: 1rem;
+    }
+    .furniture-n-home-decore-img-area .price{
+        font-size: 1rem;
+    }
+    .furniture-n-home-decore-img-area .shop-now-btn{
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+    /* furnitures & home decores section end */ 
 
- /* tools & equipments section start */
-.tools-n-equipments-img-area{
-    padding:1rem;
-}
-.tools-n-equipments-img-area .use-update-text{
-    font-size:1.2rem;
-}
-.tools-n-equipments-img-area .life-easy-text{
-    font-size: 1.2rem;
-}
-.tools-n-equipments-img-area .treecutter-text{
-    font-size: 1.3rem;
-}
-.tools-n-equipments-img-area .weight-text{
-    font-size: 1rem;
-}
- /* tools & equipments section end */
+    /* tools & equipments section start */
+    .tools-n-equipments-img-area{
+        padding:1rem;
+    }
+    .tools-n-equipments-img-area .use-update-text{
+        font-size:1.2rem;
+    }
+    .tools-n-equipments-img-area .life-easy-text{
+        font-size: 1.2rem;
+    }
+    .tools-n-equipments-img-area .treecutter-text{
+        font-size: 1.3rem;
+    }
+    .tools-n-equipments-img-area .weight-text{
+        font-size: 1rem;
+    }
+    /* tools & equipments section end */
 
- /* security section start*/
-#security{
-    background-color: var(--primary-color);
-    padding: 10px 0;
-}
-#security img{
-    width:60px;
-    margin-right: 0;
-    margin-bottom: 10px;
-}
-#security p{
-    display: inline;
-    font-size: 20px;
-    color:var(--white-color);
-}
- /* security section end */
+    /* security section start*/
+    #security{
+        background-color: var(--primary-color);
+        padding: 10px 0;
+    }
+    #security img{
+        width:60px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    #security p{
+        display: inline;
+        font-size: 20px;
+        color:var(--white-color);
+    }
+    /* security section end */
 
-/* **************************** main start here *********************  */
+    /* *** main start here ***  */
 
-/* **************************** footer start here *********************  */
-.footer-content-area{
-    padding:0 0;
+    /* ***footer start here ***  */
+    .footer-content-area{
+        padding:0 0;
+        text-align: center;
+    }
+    .footer h5{
+        font-size: 1.3rem;
+    }
+    /* *** footer end here ***  */
 }
-.footer h5{
-    font-size: 1.3rem;
-}
-/* **************************** footer end here *********************  */
-}
+/* ************* RESPONSIVE DESIGN FOR MOBILE VERSION STRAT HERE *********************************** */
