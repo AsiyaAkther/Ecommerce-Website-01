@@ -98,7 +98,7 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <ul class="navbar-nav mx-auto mb-lg-0">
                                     <li class="nav-item dropdown">
                                         <a class="dropdown-toggle nav-link active" aria-current="page" href="#" id="dropdownMenuButton1" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-list"></i> Categories</a>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -147,18 +147,114 @@
             <!-- -------------main Start --------------
             --------------------------------------------- -->
             <main>
-                  <div class="container">
-                        <p>Home/Register</p>
+                <section id="reg-form-section">
+                    <div class="container">
+                        <p class="home-reg-para">Home/Register</p>
                         <div class="register-form-div">
                             <h1>Register</h1>
-                            <form action="">
-                                
+                            <form action="" id="reg-form">
+                                <div class="reg-form-group first-name-group">
+                                    <input type="text" class="reg-input form-control" id="first-name" name="first-name" required>
+                                    <label class="reg-label" for="first-name">First Name</label>
+                                </div>
+                                <div class="reg-form-group last-name-group">
+                                    <input type="text" class="reg-input form-control" id="last-name" name="last-name" required>
+                                    <label class="reg-label" for="last-name" id="last-name-label">Last Name</label>
+                                </div>
+                                <div class="reg-form-group email-group">
+                                    <input type="email" class="reg-input form-control" id="email" name="email" required>
+                                    <label class="reg-label" for="email">Email</label>
+                                </div>
+                                <div class="reg-form-group pass-group">
+                                    <input type="password" class="reg-input form-control" id="password" name="password" required>
+                                    <label class="reg-label" for="password">Password</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                    <label class="form-check-label" for="flexCheckDefault"> I am a customer</label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                    <label class="form-check-label" for="flexCheckChecked"> I am a vendor</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary reg-btn">REGISTER</button>
                             </form>
                         </div> 
-                  </div>
+                    </div>
+                </section>
+                  <section id="security">
+                    <div class="container">
+                        <div class="row px-0 px-md-5">
+                            <div class="col-sm-4 col-md-4 security-item-sm">
+                                <img src="images/002-cyber-security.png" alt="">
+                                <p>Secure online Payment</p>
+                            </div>
+                            <div class="col-sm-4 col-md-4 security-item-sm">
+                                <img src="images/001-money.png" alt="">
+                                <p>Money Back Guarantee</p>
+                            </div>
+                            <div class="col-sm-4 col-md-4 security-item-sm">
+                                <img src="images/003-delivery-truck.png" alt="">
+                                <p>Free Shippng</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </main>
             <!-- -------------main end --------------
             --------------------------------------------- -->
+
+            <!-- -------------footer start --------------
+        --------------------------------------------- -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content-area">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <h5>Products</h5>
+                            <ul>
+                                <li><a href="#">About App</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Help center</a></li>
+                                <li><a href="#">Support</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <h5>Company</h5>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Jobds</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Meida</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="footer-logo">
+                                <img src="images/logo-2_03.png" alt="">
+                                <p class="logo-p"><span class="logo-text-1">B</span>UTIC</p>
+                            </div>
+                            <ul class="icon-list">
+                                <a href="#"><li><i class="fab fa-twitter footer-icon"></i></li></a>
+                                <a href="#"><li><i class="fab fa-google-plus-g footer-icon"></i></li></a>
+                                <a href="#"><li><i class="fab fa-skype footer-icon"></i></li></a>
+                                <a href="#"><li><i class="fab fa-linkedin-in footer-icon"></i></li></a>
+                            </ul>
+                            <div class="footer-search">
+                                <input type="email" placeholder="your email address" id="email-input">
+                                <button><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-area">
+                    <p>&copy; 2019 Roy Design.  All Rights Reserved </p>
+                </div>
+            </div>
+        </footer>
+        <!-- -------------footer end --------------
+        --------------------------------------------- -->
 
 
         <script src="js/bootstrap.bundle.min.js"></script>

@@ -220,6 +220,9 @@ body{
     background-color: var(--primary-color);
     padding:16px 35px;
 }
+.search-box-icon:hover{
+    cursor:pointer;
+}
 /* search area end */
 .login-cart{
     padding-left: 30px;
@@ -242,9 +245,16 @@ body{
     border:none;
     font-size: 1.2rem;
     font-weight: bold;
+    transition: 1s;
 }
 .fa-user{
     margin-right: 10px;
+}
+.log-in-btn:hover{
+    background: #fff;
+    border:1px solid var(--primary-color);
+    color:var(--primary-color);
+    transition: 1s;
 }
 /* login area end */
 
@@ -700,8 +710,118 @@ body{
 /* **************************** footer end here *********************  */
 
 /* **********************************************************************************
-*******************************HOME PAGE DESIGN end*****************************
+*******************************HOME PAGE DESIGN END*****************************
 ********************************************************************************** */
+
+/* **********************************************************************************
+*******************************REGISTER PAGE DESIGN START*****************************
+********************************************************************************** */
+.home-reg-para{
+    font-size: 1.8rem;
+    padding:10px 0;
+    color:#666666;
+}
+.register-form-div{
+    padding:5rem 0;
+}
+.register-form-div h1{
+    font-size: 2rem;
+    text-align: center;
+    color:#000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom:30px;
+}
+#reg-form{
+    border:1px solid #e6e4e4;
+    width:70%;
+    margin:0 auto;
+    padding:5rem;
+    margin-bottom: 20px;
+}
+/* placeholder with red star code */
+.reg-form-group{
+    position:relative;
+}
+.reg-form-group input{
+    position:relative;
+    z-index:9;
+    background:transparent;
+    border:1px solid #e6e4e4;
+    padding: 5px;
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(230,228,228,0.38); 
+box-shadow: 0px 0px 5px 3px rgba(230,228,228,0.38);
+}
+.reg-form-group label{
+    position:absolute;
+    left:5px;
+    top:5px;
+    z-index:1;
+    color:#ccc;
+}
+.reg-form-group label::after{
+    content:"*";
+    color:red;
+}
+input[required]:valid + label{
+    display: none;
+}
+/* placeholder with red end code */
+.first-name-group, .last-name-group{
+    width:50%;
+    float:left;
+}
+.email-group{
+    clear: both;
+}
+.reg-input{
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    height:80px;
+}
+.reg-label{
+    font-size: 1.3rem;
+    padding:20px 1%;
+}
+#first-name{
+    width:95%;
+}
+#last-name{
+    width: 100%;
+}
+.form-check{
+    width:50%;
+    float:left;
+    display: flex;
+    align-items: center;
+}
+.form-check-label{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color:#000000;
+}
+.form-check-input:checked {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+.reg-btn{
+    width:100%;
+    margin-top: 30px;
+    padding:15px 0;
+    font-size: 1.5rem;
+    background: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    transition: 1s;
+}
+.reg-btn:hover{
+    background: transparent;
+    border:1px solid var(--primary-color);
+    color:var(--primary-color);
+    transition: 1s;
+}
+/* **********************************************************************************
+*******************************REGISTER PAGE DESIGN END*****************************
+********************************************************************************** */   
 
 /* ************* RESPONSIVE DESIGN FOR MOBILE VERSION STRAT HERE *********************************** */
 
@@ -1002,5 +1122,44 @@ body{
         font-size: 1.3rem;
     }
     /* *** footer end here ***  */
+
+    /* *******************************REGISTER PAGE DESIGN START**************************** */
+    .home-reg-para{
+        font-size: 1.1rem;
+    }
+    .register-form-div{
+        padding:1rem 0;
+    }
+    .register-form-div h1{
+        font-size: 1.5rem;
+    }
+    #reg-form{
+        width:100%;
+        padding:1rem 0.5rem;
+    }
+    .first-name-group, .last-name-group{
+        width:100%;
+    }
+    .reg-input{
+        font-size: 1.2rem;
+        height:60px;
+    }
+    .reg-label{
+        font-size: 1rem;
+        padding:15px 1%;
+    }
+    #first-name{
+        width:100%;
+    }
+    #last-name{
+        width: 100%;
+    }
+    .form-check{
+        width:100%;
+    }
+    .form-check-label{
+        font-size: 1.2rem;
+    }
+    /* ****************************REGISTER PAGE DESIGN END***************************** */  
 }
 /* ************* RESPONSIVE DESIGN FOR MOBILE VERSION STRAT HERE *********************************** */
