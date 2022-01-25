@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/all.css">
         <!-- theme css -->
         <link rel="stylesheet" href="css/style.css">
-        <title>Registration</title>
+        <title>Products</title>
     </head>
     <body>
         <!-- -------------Header Start --------------
@@ -145,118 +145,71 @@
         <!-- -------------Header end --------------
         --------------------------------------------- -->
 
-        <!-- -------------main Start --------------
+        <!-- -------------Main start --------------
         --------------------------------------------- -->
         <main>
-            <section id="reg-form-section">
-                <div class="container">
-                    <p class="home-reg-para">Home/Register</p>
-                    <div class="register-form-div">
-                        <h1>Register</h1>
-                        <form action="" id="reg-form">
-                            <div class="reg-form-group first-name-group">
-                                <input type="text" class="reg-input form-control" id="first-name" name="first-name" required>
-                                <label class="reg-label" for="first-name">First Name</label>
-                            </div>
-                            <div class="reg-form-group last-name-group">
-                                <input type="text" class="reg-input form-control" id="last-name" name="last-name" required>
-                                <label class="reg-label" for="last-name" id="last-name-label">Last Name</label>
-                            </div>
-                            <div class="reg-form-group email-group">
-                                <input type="email" class="reg-input form-control" id="email" name="email" required>
-                                <label class="reg-label" for="email">Email</label>
-                            </div>
-                            <div class="reg-form-group pass-group">
-                                <input type="password" class="reg-input form-control" id="password" name="password" required>
-                                <label class="reg-label" for="password">Password</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault"> I am a customer</label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                <label class="form-check-label" for="flexCheckChecked"> I am a vendor</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary reg-btn">REGISTER</button>
-                        </form>
-                    </div> 
-                </div>
-            </section>
-            <section id="security">
-                <div class="container">
-                    <div class="row px-0 px-md-5">
-                        <div class="col-sm-4 col-md-4 security-item-sm">
-                            <img src="images/002-cyber-security.png" alt="">
-                            <p>Secure online Payment</p>
-                        </div>
-                        <div class="col-sm-4 col-md-4 security-item-sm">
-                            <img src="images/001-money.png" alt="">
-                            <p>Money Back Guarantee</p>
-                        </div>
-                        <div class="col-sm-4 col-md-4 security-item-sm">
-                            <img src="images/003-delivery-truck.png" alt="">
-                            <p>Free Shippng</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <!-- -------------main end --------------
-        --------------------------------------------- -->
-
-        <!-- -------------footer start --------------
-        --------------------------------------------- -->
-        <footer class="footer">
             <div class="container">
-                <div class="footer-content-area">
+                <p class="products-page-para">Home/Tools/360 Chainshow Speaker</p>
+                <section id="product-display">
                     <div class="row">
-                        <div class="col-sm-6 col-md-4">
-                            <h5>Products</h5>
-                            <ul>
-                                <li><a href="#">About App</a></li>
-                                <li><a href="#">Features</a></li>
-                                <li><a href="#">Security</a></li>
-                                <li><a href="#">Help center</a></li>
-                                <li><a href="#">Support</a></li>
-                            </ul>
+                        <div class="col-md-6">
+                            <div class="tab-content products-tab-content" id="pills-tabContent">
+                                <div class="tab-pane products-tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                                    <img src="images/coat-item.png" alt="">
+                                </div>
+                                <div class="tab-pane products-tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                                    <img src="images/pant-item.png" alt="">
+                                </div>
+                                <div class="tab-pane products-tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                                    <img src="images/t-shirt-item.png" alt="">
+                                </div>
+                            </div> 
+                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                <li class="nav-item products-tab-item" role="presentation">
+                                    <button class="nav-link products-tab-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">
+                                        <img src="images/coat-item.png" alt="">
+                                    </button>
+                                </li>
+                                <li class="nav-item products-tab-item" role="presentation">
+                                    <button class="nav-link products-tab-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
+                                        <img src="images/pant-item.png" alt="">
+                                    </button>
+                                </li>
+                                <li class="nav-item products-tab-item" role="presentation">
+                                    <button class="nav-link products-tab-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">
+                                        <img src="images/t-shirt-item.png" alt="">
+                                    </button>
+                                </li>
+                            </ul>                             
                         </div>
-                        <div class="col-sm-6 col-md-4">
-                            <h5>Company</h5>
-                            <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Jobds</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Meida</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-12 col-md-4">
-                            <div class="footer-logo">
-                                <img src="images/logo-2_03.png" alt="">
-                                <p class="logo-p"><span class="logo-text-1">B</span>UTIC</p>
-                            </div>
-                            <ul class="icon-list">
-                                <a href="#"><li><i class="fab fa-twitter footer-icon"></i></li></a>
-                                <a href="#"><li><i class="fab fa-google-plus-g footer-icon"></i></li></a>
-                                <a href="#"><li><i class="fab fa-skype footer-icon"></i></li></a>
-                                <a href="#"><li><i class="fab fa-linkedin-in footer-icon"></i></li></a>
-                            </ul>
-                            <div class="footer-search">
-                                <input type="email" placeholder="your email address" id="email-input">
-                                <button><i class="fas fa-paper-plane"></i></button>
+                        <div class="col-md-6">
+                            <div class="product-display-text-area">
+                                <h1>Alberto Toresi Borgo Jacket Perfume and Our Full Hugo Boss</h1>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span><i class="fas fa-star"></i></span></li>
+                                            <li><span class="products-list-number">105 Reviews</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <p class="products-order-para">1684 orders</p>
+                                    </div>
+                                </div>
+                                <p class="product-details-main-para">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+                                <span class="product-detail-price-span">$350.00</span><span class="product-detail-available-span">Availability: In Stock</span>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="copyright-area">
-                    <p>&copy; 2019 Roy Design.  All Rights Reserved </p>
-                </div>
+                </section>
             </div>
-        </footer>
-        <!-- -------------footer end --------------
+        </main>
+        <!-- -------------Main end --------------
         --------------------------------------------- -->
-
 
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/main.js"></script>

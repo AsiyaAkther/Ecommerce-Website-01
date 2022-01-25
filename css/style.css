@@ -714,17 +714,17 @@ body{
 ********************************************************************************** */
 
 /* **********************************************************************************
-*******************************REGISTER PAGE DESIGN START*****************************
+*******************************REGISTER & LOGIN PAGE DESIGN START*****************************
 ********************************************************************************** */
 .home-reg-para{
     font-size: 1.8rem;
     padding:10px 0;
     color:#666666;
 }
-.register-form-div{
+.register-form-div,.login-form-div{
     padding:5rem 0;
 }
-.register-form-div h1{
+.register-form-div h1,.login-form-div h1{
     font-size: 2rem;
     text-align: center;
     color:#000000;
@@ -732,7 +732,7 @@ body{
     font-weight: 700;
     margin-bottom:30px;
 }
-#reg-form{
+#reg-form,#login-form{
     border:1px solid #e6e4e4;
     width:70%;
     margin:0 auto;
@@ -740,10 +740,10 @@ body{
     margin-bottom: 20px;
 }
 /* placeholder with red star code */
-.reg-form-group{
+.reg-form-group,.login-form-group{
     position:relative;
 }
-.reg-form-group input{
+.reg-form-group input,.login-form-group input{
     position:relative;
     z-index:9;
     background:transparent;
@@ -752,14 +752,14 @@ body{
     -webkit-box-shadow: 0px 0px 5px 3px rgba(230,228,228,0.38); 
 box-shadow: 0px 0px 5px 3px rgba(230,228,228,0.38);
 }
-.reg-form-group label{
+.reg-form-group label,.login-form-group label{
     position:absolute;
     left:5px;
     top:5px;
     z-index:1;
     color:#ccc;
 }
-.reg-form-group label::after{
+.reg-form-group label::after,.login-form-group label::after{
     content:"*";
     color:red;
 }
@@ -774,12 +774,12 @@ input[required]:valid + label{
 .email-group{
     clear: both;
 }
-.reg-input{
+.reg-input,.login-input{
     margin-bottom: 20px;
     font-size: 1.5rem;
     height:80px;
 }
-.reg-label{
+.reg-label,.login-label{
     font-size: 1.3rem;
     padding:20px 1%;
 }
@@ -804,24 +804,100 @@ input[required]:valid + label{
     background-color: var(--primary-color);
     border-color: var(--primary-color);
 }
-.reg-btn{
+.reg-btn,.form-login-btn{
     width:100%;
-    margin-top: 30px;
+    margin: 30px 0;
     padding:15px 0;
     font-size: 1.5rem;
     background: var(--primary-color);
     border: 1px solid var(--primary-color);
+    letter-spacing: 3px;
     transition: 1s;
 }
-.reg-btn:hover{
+.reg-btn:hover,.form-login-btn:hover{
     background: transparent;
     border:1px solid var(--primary-color);
     color:var(--primary-color);
     transition: 1s;
 }
+.lost-pass-link{
+    text-decoration: none;
+    color:var(--primary-color);
+    font-size: 1.1rem;
+}
 /* **********************************************************************************
-*******************************REGISTER PAGE DESIGN END*****************************
-********************************************************************************** */   
+*******************************REGISTER & LOGIN PAGE DESIGN END*****************************
+********************************************************************************** */  
+
+/* **********************************************************************************
+******************************* PRODUCTS PAGE DESIGN END*****************************
+********************************************************************************** */
+.products-page-para{
+    font-size: 1.5rem;
+    padding:10px 0;
+    color:#666666;
+}
+/* ******** tab section start ******** */
+.products-tab-content{
+    margin-bottom: 30px;
+}
+.products-tab-content .products-tab-pane img{
+    width:100%;
+    border:1px solid var(--border-color);
+}
+.products-tab-item{
+    width:30%;
+    border:1px solid var(--border-color);
+    margin-right: 31px;
+}
+.products-tab-item:last-child{
+    margin-right: 0;
+}
+.products-tab-item .products-tab-link img{
+    width:100%;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color: transparent;
+}
+/* ******** tab section end ******** */
+/* product details text area start */
+.product-display-text-area h1{
+    font-size:1.9rem;
+    font-weight: 700;
+    margin-bottom:20px;
+}
+.product-display-text-area ul{
+    margin-left:-30px;
+}
+.product-display-text-area ul li{
+    list-style-type: none;
+    float:left;
+    margin-right:5px;
+    font-size:1.4rem;
+}
+.products-list-number{
+    color:#000000;
+    font-size: 1.3rem;
+    margin-left:5px;
+}
+.products-order-para{
+    color:#000000;
+    font-size: 1.3rem;
+    border-left:1px solid var(--border-color);
+    padding-left:15px;
+}
+.product-display-text-area .product-details-main-para{
+    font-size: 1.3rem;
+    margin-top:20px;
+    color:#999999;
+}
+.product-detail-price-span{
+    
+}
+/* product details text area end */
+/* **********************************************************************************
+*******************************PRODUCTS PAGE DESIGN END*****************************
+********************************************************************************** */
 
 /* ************* RESPONSIVE DESIGN FOR MOBILE VERSION STRAT HERE *********************************** */
 
@@ -1123,28 +1199,28 @@ input[required]:valid + label{
     }
     /* *** footer end here ***  */
 
-    /* *******************************REGISTER PAGE DESIGN START**************************** */
+    /* *******************************REGISTER & LOGIN PAGE DESIGN START**************************** */
     .home-reg-para{
         font-size: 1.1rem;
     }
-    .register-form-div{
+    .register-form-div,.login-form-div{
         padding:1rem 0;
     }
-    .register-form-div h1{
+    .register-form-div h1,.login-form-div h1{
         font-size: 1.5rem;
     }
-    #reg-form{
+    #reg-form,#login-form{
         width:100%;
         padding:1rem 0.5rem;
     }
     .first-name-group, .last-name-group{
         width:100%;
     }
-    .reg-input{
+    .reg-input,.login-input{
         font-size: 1.2rem;
         height:60px;
     }
-    .reg-label{
+    .reg-label,.login-label{
         font-size: 1rem;
         padding:15px 1%;
     }

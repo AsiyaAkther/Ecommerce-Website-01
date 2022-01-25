@@ -10,7 +10,7 @@
         <link rel="stylesheet" href="css/all.css">
         <!-- theme css -->
         <link rel="stylesheet" href="css/style.css">
-        <title>Registration</title>
+        <title>Login</title>
     </head>
     <body>
         <!-- -------------Header Start --------------
@@ -148,39 +148,28 @@
         <!-- -------------main Start --------------
         --------------------------------------------- -->
         <main>
-            <section id="reg-form-section">
+            <section id="login-form-section">
                 <div class="container">
                     <p class="home-reg-para">Home/Register</p>
-                    <div class="register-form-div">
+                    <div class="login-form-div">
                         <h1>Register</h1>
-                        <form action="" id="reg-form">
-                            <div class="reg-form-group first-name-group">
-                                <input type="text" class="reg-input form-control" id="first-name" name="first-name" required>
-                                <label class="reg-label" for="first-name">First Name</label>
+                        <form action="" id="login-form">
+                            <div class="login-form-group name-n-email-group">
+                                <input type="text" class="login-input form-control" id="name-n-email" name="name-n-email" required>
+                                <label class="login-label" for="name-n-email">Username or email address</label>
                             </div>
-                            <div class="reg-form-group last-name-group">
-                                <input type="text" class="reg-input form-control" id="last-name" name="last-name" required>
-                                <label class="reg-label" for="last-name" id="last-name-label">Last Name</label>
-                            </div>
-                            <div class="reg-form-group email-group">
-                                <input type="email" class="reg-input form-control" id="email" name="email" required>
-                                <label class="reg-label" for="email">Email</label>
-                            </div>
-                            <div class="reg-form-group pass-group">
-                                <input type="password" class="reg-input form-control" id="password" name="password" required>
-                                <label class="reg-label" for="password">Password</label>
+                            <div class="login-form-group pass-group">
+                                <input type="password" class="login-input form-control" id="password" name="password" required>
+                                <label class="login-label" for="password">Password</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label class="form-check-label" for="flexCheckDefault"> I am a customer</label>
+                                <label class="form-check-label" for="flexCheckDefault">Remember Me</label>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                                <label class="form-check-label" for="flexCheckChecked"> I am a vendor</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary reg-btn">REGISTER</button>
+                            <button type="submit" class="btn btn-primary form-login-btn">LOGIN</button>
+                            <a href="#" class="lost-pass-link">Lost your password?</a>
                         </form>
-                    </div> 
+                    </div>
                 </div>
             </section>
             <section id="security">
@@ -205,7 +194,7 @@
         <!-- -------------main end --------------
         --------------------------------------------- -->
 
-        <!-- -------------footer start --------------
+         <!-- -------------footer start --------------
         --------------------------------------------- -->
         <footer class="footer">
             <div class="container">
@@ -256,7 +245,6 @@
         </footer>
         <!-- -------------footer end --------------
         --------------------------------------------- -->
-
 
         <script src="js/bootstrap.bundle.min.js"></script>
         <script src="js/main.js"></script>
