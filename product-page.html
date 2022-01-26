@@ -201,7 +201,19 @@
                                     </div>
                                 </div>
                                 <p class="product-details-main-para">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
-                                <span class="product-detail-price-span">$350.00</span><span class="product-detail-available-span">Availability: In Stock</span>
+                                <span class="product-detail-price-span">$350.00</span>
+                                <span class="product-detail-available-span">Availability: In Stock</span>
+                                <p class="product-quantity-para">Quantity:</p>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="quantity buttons_added">
+                                            <input type="text" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                                            <button type="button" value="+" class="plus"><i class="fas fa-plus"></i></button>
+                                            <button type="button" value="-" class="minus"><i class="fas fa-minus"></i></button>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -212,6 +224,8 @@
         --------------------------------------------- -->
 
         <script src="js/bootstrap.bundle.min.js"></script>
+        <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="js/quantity.js"></script>
     </body>
 </html>

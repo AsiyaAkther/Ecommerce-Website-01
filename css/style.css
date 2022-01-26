@@ -890,10 +890,79 @@ input[required]:valid + label{
     font-size: 1.3rem;
     margin-top:20px;
     color:#999999;
+    margin:30px 0;
 }
 .product-detail-price-span{
-    
+    font-size: 2rem;
+    color:var(--primary-color);
+    font-weight: 700;
+    margin-right:30px;
 }
+.product-detail-available-span{
+    font-size: 1.6rem;
+    color:#000000;
+}
+.product-quantity-para{
+    margin-top:30px;
+    font-size:1.5rem;
+    color:#000000;
+}
+/* quantity btn strat */
+.quantity {
+    display: inline-block; 
+    border:1px solid var(--border-color);
+    text-align: center;
+}  
+.quantity .input-text.qty {
+    width: 35px;
+    height: 39px;
+    padding: 0 5px;
+    text-align: center;
+    border:none;
+    font-weight: bold;
+    color:var(--primary-color);
+}
+.quantity.buttons_added input {
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    box-shadow: none;
+}
+.quantity.buttons_added .minus,.quantity.buttons_added .plus {
+    height: 41px;
+    background-color: #ffffff;
+    border:none;
+    cursor:pointer;
+}
+.quantity.buttons_added .plus {
+    border-left: 1px solid var(--border-color); 
+    padding-left: 20px;
+}
+.quantity.buttons_added .minus {
+    padding-right: 20px;
+} 
+.quantity input::-webkit-outer-spin-button,.quantity input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin: 0; 
+}
+.fa-plus,.fa-minus{
+    background-color: gray;
+    color:#fff;
+    padding:5px;
+    border-radius: 50%;
+    font-size: 1rem;
+}
+.quantity.buttons_added .minus:focus,.quantity.buttons_added .plus:focus {
+    outline: none; 
+}
+.quantity.buttons_added .minus:focus .fa-minus{
+    background-color: #000;
+}
+.quantity.buttons_added .plus:focus .fa-plus{
+    background-color: #000;
+}
+/* quantity btn end */
 /* product details text area end */
 /* **********************************************************************************
 *******************************PRODUCTS PAGE DESIGN END*****************************
