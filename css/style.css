@@ -830,7 +830,7 @@ input[required]:valid + label{
 ********************************************************************************** */  
 
 /* **********************************************************************************
-******************************* PRODUCTS PAGE DESIGN END*****************************
+******************************* PRODUCTS PAGE DESIGN START*****************************
 ********************************************************************************** */
 .products-page-para{
     font-size: 1.5rem;
@@ -859,12 +859,32 @@ input[required]:valid + label{
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     background-color: transparent;
 }
+.products-tab-content .products-tab-pane{
+    position:relative;
+}
+.img-magnifier-glass{
+    position: absolute;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    visibility: hidden;
+}
+.products-tab-pane:hover .img-magnifier-glass{
+    visibility: visible;
+}
 /* ******** tab section end ******** */
 /* product details text area start */
+.product-display-text-area{
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 40px;
+}
 .product-display-text-area h1{
     font-size:1.9rem;
     font-weight: 700;
-    margin-bottom:20px;
+    margin-bottom:30px;
+    line-height: 50px;
 }
 .product-display-text-area ul{
     margin-left:-30px;
@@ -891,36 +911,39 @@ input[required]:valid + label{
     margin-top:20px;
     color:#999999;
     margin:30px 0;
+    line-height: 40px;
 }
 .product-detail-price-span{
-    font-size: 2rem;
+    font-size: 2.2rem;
     color:var(--primary-color);
     font-weight: 700;
     margin-right:30px;
 }
 .product-detail-available-span{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     color:#000000;
 }
 .product-quantity-para{
     margin-top:30px;
-    font-size:1.5rem;
+    font-size:1.8rem;
     color:#000000;
 }
 /* quantity btn strat */
 .quantity {
+    margin-top:20px; 
     display: inline-block; 
     border:1px solid var(--border-color);
     text-align: center;
 }  
 .quantity .input-text.qty {
-    width: 35px;
-    height: 39px;
+    width: 50px;
+    height: 55px;
     padding: 0 5px;
     text-align: center;
     border:none;
     font-weight: bold;
     color:var(--primary-color);
+    font-size: 30px;
 }
 .quantity.buttons_added input {
     display: inline-block;
@@ -929,17 +952,17 @@ input[required]:valid + label{
     box-shadow: none;
 }
 .quantity.buttons_added .minus,.quantity.buttons_added .plus {
-    height: 41px;
+    height: 55px;
     background-color: #ffffff;
     border:none;
     cursor:pointer;
 }
 .quantity.buttons_added .plus {
     border-left: 1px solid var(--border-color); 
-    padding-left: 20px;
+    padding: 0 15px;
 }
 .quantity.buttons_added .minus {
-    padding-right: 20px;
+    padding: 0 15px;
 } 
 .quantity input::-webkit-outer-spin-button,.quantity input::-webkit-inner-spin-button {
     -webkit-appearance: none;
@@ -951,7 +974,7 @@ input[required]:valid + label{
     color:#fff;
     padding:5px;
     border-radius: 50%;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 .quantity.buttons_added .minus:focus,.quantity.buttons_added .plus:focus {
     outline: none; 
@@ -963,9 +986,99 @@ input[required]:valid + label{
     background-color: #000;
 }
 /* quantity btn end */
+.add-cart-btn{
+    background-color: var(--primary-color);
+    color:var(--white-color);
+    font-size:1.5rem;
+    border:1px solid var(--primary-color);
+    padding:10px 15px;
+    margin-top:20px;
+    transition: 1s;
+}
+.add-cart-btn:hover{
+    background-color: transparent;
+    color:var(--primary-color);
+    border:1px solid var(--primary-color);
+    transition: 1s;
+}
+.add-wishlist-para{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    padding:10px 0;
+    color:#999999;
+}
+.product-heart{
+    font-size:1.8rem;
+    margin-right: 5px;
+    color:#000000;
+}
 /* product details text area end */
+
+/* produtcs details lower div start */
+.product-details-lower-div{
+    padding-top:40px;
+}
+.product-details-lower-div .single-lower-div i{
+    color:var(--primary-color);
+    font-size: 3rem;
+}
+.product-details-lower-div .single-lower-div h5{
+    margin-top:20px;
+    font-size:1.5rem;
+    font-weight:700;
+}
+.product-details-lower-div .single-lower-div p{
+    font-size: 1.2rem;
+}
+/* produtcs details lower div end */
+/* description tab section start */
+#description-tab{
+    margin-top: 50px;
+    margin-bottom:30px;
+}
+.description-tab{
+    border:1px solid var(--border-color);
+}
+.description-nav-tabs{
+    border:none;
+}
+.description-nav-item .description-nav-link{
+    color:#000000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin:0 4px;
+    padding:10px 20px;
+    background-color: #dddada;
+    border-radius:5px;
+}
+.description-nav-tabs .description-nav-item .description-nav-link.active{
+    background-color: var(--primary-color);
+    color:#fff;
+}
+.description-tab-content{
+    padding:20px;
+}
+.description-tab-pane p{
+    font-size: 1.1rem;
+    color:#999999;
+    padding:10px 0;
+}
+/* description tab section end */
 /* **********************************************************************************
 *******************************PRODUCTS PAGE DESIGN END*****************************
+********************************************************************************** */
+
+/* **********************************************************************************
+*******************************MY ACCOUNT PAGE DESIGN START*****************************
+********************************************************************************** */
+#my-account .my-acc-heading{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* **********************************************************************************
+*******************************MY ACCOUNT PAGE DESIGN END*****************************
 ********************************************************************************** */
 
 /* ************* RESPONSIVE DESIGN FOR MOBILE VERSION STRAT HERE *********************************** */
@@ -1305,6 +1418,116 @@ input[required]:valid + label{
     .form-check-label{
         font-size: 1.2rem;
     }
-    /* ****************************REGISTER PAGE DESIGN END***************************** */  
+    /* ****************************REGISTER PAGE DESIGN END***************************** */
+
+/******************************** PRODUCTS PAGE DESIGN START******************************/
+.products-page-para{
+    font-size: 1.1rem;
+}
+/* ******** tab section start ******** */
+.products-tab-item{
+    margin-right: 15px;
+}
+.img-magnifier-glass{
+    width: 80px;
+    height: 80px;
+}
+/* ******** tab section end ******** */
+/* product details text area start */
+.product-display-text-area{
+    margin-top:20px;
+    padding-bottom: 20px;
+}
+.product-display-text-area h1{
+    font-size:1.2rem;
+    margin-bottom:20px;
+    line-height: 35px;
+}
+.product-display-text-area ul li{
+    font-size:0.8rem;
+}
+.products-list-number{
+    font-size: 0.8rem;
+}
+.products-order-para{
+    font-size: 0.8rem;
+}
+.product-display-text-area .product-details-main-para{
+    font-size: 1rem;
+    margin:15px 0;
+    line-height: 30px;
+}
+.product-detail-price-span{
+    font-size: 1.5rem;
+}
+.product-detail-available-span{
+    font-size: 1.2rem;
+}
+.product-quantity-para{
+    margin-top:10px;
+    font-size:1.4rem;
+}
+/* quantity btn strat */
+.quantity {
+    margin-top:10px; 
+}  
+.quantity .input-text.qty {
+    width: 35px;
+    height: 45px;
+    font-size: 18px;
+}
+.quantity.buttons_added .minus,.quantity.buttons_added .plus {
+    height: 45px;
+}
+.quantity.buttons_added .plus {
+    padding: 0 15px;
+}
+.quantity.buttons_added .minus {
+    padding: 0 10px;
+} 
+.fa-plus,.fa-minus{
+    font-size: 0.7rem;
+}
+/* quantity btn end */
+.add-cart-btn{
+    font-size:1rem;
+    margin-top:10px;
+}
+/* product details text area end */
+
+/* produtcs details lower div start */
+.product-details-lower-div .single-lower-div i{
+    font-size: 2rem;
+}
+.product-details-lower-div .single-lower-div h5{
+    font-size:1rem;
+    margin-top:10px;
+}
+.product-details-lower-div .single-lower-div p{
+    font-size: 0.8rem;
+}
+/* produtcs details lower div end */
+/* description tab section start */
+#description-tab{
+    margin-top: 50px;
+    margin-bottom:30px;
+}
+.description-tab{
+    border:1px solid var(--border-color);
+}
+.description-nav-item .description-nav-link{
+    font-size: 0.9rem;
+    padding:10px 5px;
+}
+.description-tab-content{
+    padding:10px;
+}
+.description-tab-pane p{
+    font-size: 0.9rem;
+    color:#999999;
+    padding:5px 0;
+}
+/* description tab section end */
+/********************************PRODUCTS PAGE DESIGN END******************************/
 }
 /* ************* RESPONSIVE DESIGN FOR MOBILE VERSION STRAT HERE *********************************** */

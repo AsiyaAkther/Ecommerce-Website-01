@@ -149,19 +149,20 @@
         --------------------------------------------- -->
         <main>
             <div class="container">
-                <p class="products-page-para">Home/Tools/360 Chainshow Speaker</p>
+                <p class="products-page-para">Home / Tools / 360 Chainshow Speaker</p>
+                <!-- Product display section start -->
                 <section id="product-display">
                     <div class="row">
                         <div class="col-md-6">
                             <div class="tab-content products-tab-content" id="pills-tabContent">
                                 <div class="tab-pane products-tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                                    <img src="images/coat-item.png" alt="">
+                                    <img src="images/coat-item.png" alt="" id="tab-img-mag">
                                 </div>
                                 <div class="tab-pane products-tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                                    <img src="images/pant-item.png" alt="">
+                                    <img src="images/pant-item.png" alt="" id="tab-img-mag2">
                                 </div>
                                 <div class="tab-pane products-tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                                    <img src="images/t-shirt-item.png" alt="">
+                                    <img src="images/t-shirt-item.png" alt="" id="tab-img-mag3">
                                 </div>
                             </div> 
                             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
@@ -186,7 +187,7 @@
                             <div class="product-display-text-area">
                                 <h1>Alberto Toresi Borgo Jacket Perfume and Our Full Hugo Boss</h1>
                                 <div class="row">
-                                    <div class="col-md-6">
+                                    <div class="col-7 col-md-6">
                                         <ul>
                                             <li><span><i class="fas fa-star"></i></span></li>
                                             <li><span><i class="fas fa-star"></i></span></li>
@@ -196,7 +197,7 @@
                                             <li><span class="products-list-number">105 Reviews</span></li>
                                         </ul>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-5 col-md-6">
                                         <p class="products-order-para">1684 orders</p>
                                     </div>
                                 </div>
@@ -205,27 +206,346 @@
                                 <span class="product-detail-available-span">Availability: In Stock</span>
                                 <p class="product-quantity-para">Quantity:</p>
                                 <div class="row">
-                                    <div class="col-md-4">
+                                    <div class="col-6 col-md-4">
                                         <div class="quantity buttons_added">
                                             <input type="text" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
                                             <button type="button" value="+" class="plus"><i class="fas fa-plus"></i></button>
                                             <button type="button" value="-" class="minus"><i class="fas fa-minus"></i></button>
                                         </div>
                                     </div>
-                                    <div class="col-md-4"></div>
+                                    <div class="col-6 col-md-4">
+                                        <button class="btn btn-primary add-cart-btn">Add to Cart</button>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <p class="add-wishlist-para"><i class="far fa-heart product-heart"></i> Add to wishlist</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="product-details-lower-div">
+                                <div class="row">
+                                    <div class="col-4 col-md-4">
+                                        <div class="single-lower-div">
+                                            <i class="fas fa-shipping-fast"></i>
+                                            <h5>FREE SHIPPING</h5>
+                                            <p>On Oder Over $99</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 col-md-4">
+                                        <div class="single-lower-div">
+                                            <i class="fas fa-gift"></i>
+                                            <h5>SPECIAL OFFER</h5>
+                                            <p>Get a Gift</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 col-md-4">
+                                        <div class="single-lower-div">
+                                            <i class="fas fa-reply"></i>
+                                            <h5>ORDER RETUEN</h5>
+                                            <p>Return Within 7 Days</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
+                <!-- Product display section end -->
+
+                <!-- Description tab section start -->
+                <section id="description-tab">
+                    <div class="description-tab">
+                        <ul class="nav nav-tabs description-nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item description-nav-item" role="presentation">
+                                <button class="nav-link description-nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Description</button>
+                            </li>
+                            <li class="nav-item description-nav-item" role="presentation">
+                              <button class="nav-link description-nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Information</button>
+                            </li>
+                            <li class="nav-item description-nav-item" role="presentation">
+                                <button class="nav-link description-nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Reviews</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content description-tab-content" id="myTabContent">
+                            <div class="tab-pane description-tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <p>Lorem ipsum dolor sit amet, an munere tibique consequat mel, congue albucius no qui, at everti meliore erroribus sea. Vero graeco cotidieque ea duo, in eirmod insolens interpretaris nam. Pro at nostrud percipit definitiones, eu tale porro cum. Sea ne accusata voluptatibus. Ne cum falli dolor voluptua, duo ei sonet choro facilisis, labores officiis torquatos cum ei.</p>
+                                <p>Cum altera mandamus in, mea verear disputationi et. Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique. Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque. Est cu nibh clita. Sed an nominavi maiestatis, et duo corrumpit constituto, duo id rebum lucilius. Te eam iisque deseruisse, ipsum euismod his at. Eu putent habemus voluptua sit, sit cu rationibus scripserit, modus voluptaria ex per. Aeque dicam consulatu eu his, probatus neglegentur disputationi sit et. Ei nec ludus epicuri petentium, vis appetere maluisset ad. Et hinc exerci utinam cum. Sonet saperet nominavi est at, vel eu sumo tritani. Cum ex minim legere.</p>
+                                <p>Eos cu utroque inermis invenire, eu pri alterum antiopam. Nisl erroribus definitiones nec an, ne mutat scripserit est. Eros veri ad pri. An soleat maluisset per. Has eu idque similique, et blandit scriptorem necessitatibus mea. Vis quaeque ocurreret ea.</p>
+                            </div>
+                            <div class="tab-pane description-tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <p>Lorem ipsum dolor sit amet, an munere tibique consequat mel, congue albucius no qui, at everti meliore erroribus sea. Vero graeco cotidieque ea duo, in eirmod insolens interpretaris nam. Pro at nostrud percipit definitiones, eu tale porro cum. Sea ne accusata voluptatibus. Ne cum falli dolor voluptua, duo ei sonet choro facilisis, labores officiis torquatos cum ei.</p>
+                                <p>Cum altera mandamus in, mea verear disputationi et. Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique. Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque. Est cu nibh clita. Sed an nominavi maiestatis, et duo corrumpit constituto, duo id rebum lucilius. Te eam iisque deseruisse, ipsum euismod his at. Eu putent habemus voluptua sit, sit cu rationibus scripserit, modus voluptaria ex per. Aeque dicam consulatu eu his, probatus neglegentur disputationi sit et. Ei nec ludus epicuri petentium, vis appetere maluisset ad. Et hinc exerci utinam cum. Sonet saperet nominavi est at, vel eu sumo tritani. Cum ex minim legere.</p>
+                                <p>Eos cu utroque inermis invenire, eu pri alterum antiopam. Nisl erroribus definitiones nec an, ne mutat scripserit est. Eros veri ad pri. An soleat maluisset per. Has eu idque similique, et blandit scriptorem necessitatibus mea. Vis quaeque ocurreret ea.</p>
+                            </div>
+                            <div class="tab-pane description-tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                <p>Lorem ipsum dolor sit amet, an munere tibique consequat mel, congue albucius no qui, at everti meliore erroribus sea. Vero graeco cotidieque ea duo, in eirmod insolens interpretaris nam. Pro at nostrud percipit definitiones, eu tale porro cum. Sea ne accusata voluptatibus. Ne cum falli dolor voluptua, duo ei sonet choro facilisis, labores officiis torquatos cum ei.</p>
+                                <p>Cum altera mandamus in, mea verear disputationi et. Vel regione discere ut, legere expetenda ut eos. In nam nibh invenire similique. Atqui mollis ea his, ius graecis accommodare te. No eam tota nostrum cotidieque. Est cu nibh clita. Sed an nominavi maiestatis, et duo corrumpit constituto, duo id rebum lucilius. Te eam iisque deseruisse, ipsum euismod his at. Eu putent habemus voluptua sit, sit cu rationibus scripserit, modus voluptaria ex per. Aeque dicam consulatu eu his, probatus neglegentur disputationi sit et. Ei nec ludus epicuri petentium, vis appetere maluisset ad. Et hinc exerci utinam cum. Sonet saperet nominavi est at, vel eu sumo tritani. Cum ex minim legere.</p>
+                                <p>Eos cu utroque inermis invenire, eu pri alterum antiopam. Nisl erroribus definitiones nec an, ne mutat scripserit est. Eros veri ad pri. An soleat maluisset per. Has eu idque similique, et blandit scriptorem necessitatibus mea. Vis quaeque ocurreret ea.</p>
+                            </div>
+                        </div>
+                    </div>    
+                </section>
+                <!-- Description tab section end -->
+
+                <!-- Related products section start -->
+                <section id="hot-deal-section">
+                    <div class="row">
+                        <div class="col-md-12 mb-0">
+                            <div class="section-title">
+                                <h3>Related Products</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-0">
+                            <div class="section-items d-flex justify-content-center">
+                                <div class="single-item">
+                                    <img src="images/hot-deals-img-1.png" alt="">
+                                    <p>Radiant-360 Chainsaw Omnidirectional</p>
+                                    <ul>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span class="list-number">(4)</span></li>
+                                    </ul>
+                                    <p class="item-lower-p">$49 <span class="item-lower-span">$69</span></p>
+                                    <div class="item-hover-div">
+                                        <ul>
+                                            <li><i class="fas fa-search item-search item-hover-icon"></i></li>
+                                            <li><i class="fas fa-shopping-cart item-cart item-hover-icon"></i></li>
+                                            <li><i class="fas fa-exchange-alt item-hover-icon"></i></li>
+                                            <li><i class="far fa-heart item-hover-icon"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="single-item">
+                                    <img src="images/hot-deals-img-2.png" alt="">
+                                    <p>New watch update version</p>
+                                    <ul>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span class="list-number">(4)</span></li>
+                                    </ul>
+                                    <p class="item-lower-p">$49 <span class="item-lower-span">$69</span></p>
+                                    <div class="item-hover-div">
+                                        <ul>
+                                            <li><i class="fas fa-search item-search item-hover-icon"></i></li>
+                                            <li><i class="fas fa-shopping-cart item-cart item-hover-icon"></i></li>
+                                            <li><i class="fas fa-exchange-alt item-hover-icon"></i></li>
+                                            <li><i class="far fa-heart item-hover-icon"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="single-item">
+                                    <img src="images/hot-deals-img-3.png" alt="">
+                                    <p>Radiant-360 Chainsaw Omnidirectional</p>
+                                    <ul>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span class="list-number">(4)</span></li>
+                                    </ul>
+                                    <p class="item-lower-p">$49 <span class="item-lower-span">$69</span></p>
+                                    <div class="item-hover-div">
+                                        <ul>
+                                            <li><i class="fas fa-search item-search item-hover-icon"></i></li>
+                                            <li><i class="fas fa-shopping-cart item-cart item-hover-icon"></i></li>
+                                            <li><i class="fas fa-exchange-alt item-hover-icon"></i></li>
+                                            <li><i class="far fa-heart item-hover-icon"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="single-item">
+                                    <img src="images/hot-deals-img-4.png" alt="">
+                                    <p>New watch update version</p>
+                                    <ul>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span class="list-number">(4)</span></li>
+                                    </ul>
+                                    <p class="item-lower-p">$49 <span class="item-lower-span">$69</span></p>
+                                    <div class="item-hover-div">
+                                        <ul>
+                                            <li><i class="fas fa-search item-search item-hover-icon"></i></li>
+                                            <li><i class="fas fa-shopping-cart item-cart item-hover-icon"></i></li>
+                                            <li><i class="fas fa-exchange-alt item-hover-icon"></i></li>
+                                            <li><i class="far fa-heart item-hover-icon"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="single-item">
+                                    <img src="images/hot-deals-img-5.png" alt="">
+                                    <p>New watch update version</p>
+                                    <ul>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span class="list-number">(4)</span></li>
+                                    </ul>
+                                    <p class="item-lower-p">$49 <span class="item-lower-span">$69</span></p>
+                                    <div class="item-hover-div">
+                                        <ul>
+                                            <li><i class="fas fa-search item-search item-hover-icon"></i></li>
+                                            <li><i class="fas fa-shopping-cart item-cart item-hover-icon"></i></li>
+                                            <li><i class="fas fa-exchange-alt item-hover-icon"></i></li>
+                                            <li><i class="far fa-heart item-hover-icon"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Related products section end -->
+
+                <!-- you may like section start -->
+                <section id="hot-deal-section">
+                    <div class="row">
+                        <div class="col-md-12 mb-0">
+                            <div class="section-title">
+                                <h3>You may also like</h3>
+                            </div>
+                        </div>
+                        <div class="col-md-12 mt-0">
+                            <div class="section-items d-flex justify-content-start">
+                                <div class="single-item">
+                                    <img src="images/hot-deals-img-1.png" alt="">
+                                    <p>Radiant-360 Chainsaw Omnidirectional</p>
+                                    <ul>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span class="list-number">(4)</span></li>
+                                    </ul>
+                                    <p class="item-lower-p">$49 <span class="item-lower-span">$69</span></p>
+                                    <div class="item-hover-div">
+                                        <ul>
+                                            <li><i class="fas fa-search item-search item-hover-icon"></i></li>
+                                            <li><i class="fas fa-shopping-cart item-cart item-hover-icon"></i></li>
+                                            <li><i class="fas fa-exchange-alt item-hover-icon"></i></li>
+                                            <li><i class="far fa-heart item-hover-icon"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="single-item">
+                                    <img src="images/hot-deals-img-2.png" alt="">
+                                    <p>New watch update version</p>
+                                    <ul>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span><i class="fas fa-star"></i></span></li>
+                                        <li><span class="list-number">(4)</span></li>
+                                    </ul>
+                                    <p class="item-lower-p">$49 <span class="item-lower-span">$69</span></p>
+                                    <div class="item-hover-div">
+                                        <ul>
+                                            <li><i class="fas fa-search item-search item-hover-icon"></i></li>
+                                            <li><i class="fas fa-shopping-cart item-cart item-hover-icon"></i></li>
+                                            <li><i class="fas fa-exchange-alt item-hover-icon"></i></li>
+                                            <li><i class="far fa-heart item-hover-icon"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- you may like section end -->
             </div>
+            <!-- Security section start -->
+            <section id="security">
+                <div class="container">
+                    <div class="row px-0 px-md-5">
+                        <div class="col-sm-4 col-md-4 security-item-sm">
+                            <img src="images/002-cyber-security.png" alt="">
+                            <p>Secure online Payment</p>
+                        </div>
+                        <div class="col-sm-4 col-md-4 security-item-sm">
+                            <img src="images/001-money.png" alt="">
+                            <p>Money Back Guarantee</p>
+                        </div>
+                        <div class="col-sm-4 col-md-4 security-item-sm">
+                            <img src="images/003-delivery-truck.png" alt="">
+                            <p>Free Shippng</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Security section end -->
         </main>
         <!-- -------------Main end --------------
+        --------------------------------------------- -->
+
+        <!-- -------------footer start --------------
+        --------------------------------------------- -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-content-area">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <h5>Products</h5>
+                            <ul>
+                                <li><a href="#">About App</a></li>
+                                <li><a href="#">Features</a></li>
+                                <li><a href="#">Security</a></li>
+                                <li><a href="#">Help center</a></li>
+                                <li><a href="#">Support</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <h5>Company</h5>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Jobds</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Meida</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <div class="footer-logo">
+                                <img src="images/logo-2_03.png" alt="">
+                                <p class="logo-p"><span class="logo-text-1">B</span>UTIC</p>
+                            </div>
+                            <ul class="icon-list">
+                                <a href="#"><li><i class="fab fa-twitter footer-icon"></i></li></a>
+                                <a href="#"><li><i class="fab fa-google-plus-g footer-icon"></i></li></a>
+                                <a href="#"><li><i class="fab fa-skype footer-icon"></i></li></a>
+                                <a href="#"><li><i class="fab fa-linkedin-in footer-icon"></i></li></a>
+                            </ul>
+                            <div class="footer-search">
+                                <input type="email" placeholder="your email address" id="email-input">
+                                <button><i class="fas fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright-area">
+                    <p>&copy; 2019 Roy Design.  All Rights Reserved </p>
+                </div>
+            </div>
+        </footer>
+        <!-- -------------footer end --------------
         --------------------------------------------- -->
 
         <script src="js/bootstrap.bundle.min.js"></script>
         <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="js/main.js"></script>
         <script src="js/quantity.js"></script>
+        <script src="js/magnifying-glass-script.js"></script>
+        <script src="js/magnifying-glass-script-two.js"></script>
     </body>
 </html>
