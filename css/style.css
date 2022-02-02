@@ -1077,6 +1077,24 @@ input[required]:valid + label{
     font-weight: 700;
     text-transform: uppercase;
 }
+.my-account-content{
+    padding:80px 0;
+}
+.acc-single-content{
+    margin-bottom:60px;
+}
+.acc-single-content .acc-single-content-text{
+    padding-left:60px;
+}
+.acc-single-content .acc-single-content-text h4{
+    font-size:1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.acc-single-content .acc-single-content-text p{
+    font-size: 1.1rem;
+    color:#999999;
+}
 /* **********************************************************************************
 *******************************MY ACCOUNT PAGE DESIGN END*****************************
 ********************************************************************************** */
@@ -1529,5 +1547,30 @@ input[required]:valid + label{
 }
 /* description tab section end */
 /********************************PRODUCTS PAGE DESIGN END******************************/
+
+/* *****************************MY ACCOUNT PAGE DESIGN START**************************** */
+#my-account .my-acc-heading{
+    font-size: 1.5rem;
+}
+.acc-single-content{
+    margin-bottom:40px;
+    text-align:center;
+}
+.acc-single-content .acc-single-content-img img{
+    width:120px;
+    margin-bottom: 15px;
+}
+.acc-single-content .acc-single-content-text{
+    padding-left:0;
+}
+.acc-single-content .acc-single-content-text h4{
+    font-size:1.3rem;
+}
+.acc-single-content .acc-single-content-text p{
+    font-size: 1.1rem;
+    width:90%;
+    margin:0 auto;
+}
+/* ******************************MY ACCOUNT PAGE DESIGN END***************************** */
 }
 /* ************* RESPONSIVE DESIGN FOR MOBILE VERSION STRAT HERE *********************************** */
