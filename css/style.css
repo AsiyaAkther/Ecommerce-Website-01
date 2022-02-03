@@ -1072,7 +1072,7 @@ input[required]:valid + label{
 /* **********************************************************************************
 *******************************MY ACCOUNT PAGE DESIGN START*****************************
 ********************************************************************************** */
-#my-account .my-acc-heading{
+.my-acc-heading{
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -1097,6 +1097,60 @@ input[required]:valid + label{
 }
 /* **********************************************************************************
 *******************************MY ACCOUNT PAGE DESIGN END*****************************
+********************************************************************************** */
+
+/* **********************************************************************************
+*******************************SECURITY PAGE DESIGN START*****************************
+********************************************************************************** */
+.security-content{
+    border:1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    margin:80px 0;
+    border-radius: 10px;
+}
+.security-single-content{
+    display: flex;
+    border-bottom:1px solid #ccc;
+    justify-content: space-between;
+}
+.security-content-text{
+    padding:20px;
+}
+.security-content-text .security-main-para{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.security-content-text .security-sec-para{
+    font-size: 1.3rem;
+    color:#999;
+}
+.security-star{
+    font-size:0.7rem;
+    color:#999999;
+}
+.security-edit-btn{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding:5px 50px;
+    background-color: var(--primary-color);
+    border:1px solid var(--primary-color);
+    transition: 1s;
+}
+.security-edit-btn:hover{
+    color: var(--primary-color);
+    background-color:transparent;
+    border:1px solid var(--primary-color);
+    transition: 1s;
+}
+.security-content-btn{
+    display: flex;
+    align-items: center;
+    padding-right:20px;
+}
+/* **********************************************************************************
+*******************************SECURITY PAGE DESIGN END*****************************
 ********************************************************************************** */
 
 /* ************* RESPONSIVE DESIGN FOR MOBILE VERSION STRAT HERE *********************************** */
@@ -1572,5 +1626,35 @@ input[required]:valid + label{
     margin:0 auto;
 }
 /* ******************************MY ACCOUNT PAGE DESIGN END***************************** */
+
+/* *******************************SECURITY PAGE DESIGN START***************************** */
+.res-sec-heading{
+    font-size:1.2rem;
+}
+.security-content{
+    margin:40px 0;
+}
+.security-single-content{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    padding-bottom:20px;
+}
+.security-content-text{
+    padding:10px 0;
+}
+.security-content-text .security-main-para{
+    font-size: 1.3rem;
+}
+.security-content-text .security-sec-para{
+    font-size: 1.1rem;
+}
+.security-edit-btn{
+    font-size: 1.2rem;
+}
+.security-content-btn{
+    justify-content: center;
+}
+/* *******************************SECURITY PAGE DESIGN END***************************** */
 }
 /* ************* RESPONSIVE DESIGN FOR MOBILE VERSION STRAT HERE *********************************** */
