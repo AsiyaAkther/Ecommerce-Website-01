@@ -1153,6 +1153,43 @@ input[required]:valid + label{
 *******************************SECURITY PAGE DESIGN END*****************************
 ********************************************************************************** */
 
+/* **********************************************************************************
+*******************************ACCOUNT SUPPORT PAGE DESIGN START*****************************
+********************************************************************************** */
+.acc-support-heading{
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom:1px solid #ccc;
+    display:inline;
+    padding-bottom:10px;
+}
+.acc-support-content{
+    padding:80px 0;
+}
+.support-single-content{
+    margin-bottom:60px;
+}
+.support-single-content .support-single-content-text{
+    padding-left:60px;
+}
+.support-single-content .support-single-content-text h4{
+    font-size:1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.support-single-content .support-single-content-text ul li{
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+.support-single-content .support-single-content-text ul li span{
+    font-size: 1.2rem;
+    color: #999999;
+}
+/* **********************************************************************************
+*******************************ACCOUNT SUPPORT PAGE DESIGN END*****************************
+********************************************************************************** */
+
 /* ************* RESPONSIVE DESIGN FOR MOBILE VERSION STRAT HERE *********************************** */
 
 @media screen and (max-width:450px){
