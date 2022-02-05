@@ -1693,5 +1693,30 @@ input[required]:valid + label{
     justify-content: center;
 }
 /* *******************************SECURITY PAGE DESIGN END***************************** */
+
+/* *****************************MY ACCOUNT PAGE DESIGN START**************************** */
+#account-support .acc-support-heading{
+    font-size: 1.5rem;
+}
+.support-single-content{
+    margin-bottom:40px;
+    text-align:center;
+}
+.support-single-content .support-single-content-img img{
+    width:120px;
+    margin-bottom: 15px;
+}
+.support-single-content .support-single-content-text{
+    padding-left:0;
+}
+.support-single-content .support-single-content-text h4{
+    font-size:1.3rem;
+}
+.support-single-content .support-single-content-text ul li{
+    font-size: 1.1rem;
+    width:90%;
+    margin:0 auto;
+}
+/* ******************************MY ACCOUNT PAGE DESIGN END***************************** */
 }
 /* ************* RESPONSIVE DESIGN FOR MOBILE VERSION STRAT HERE *********************************** */
