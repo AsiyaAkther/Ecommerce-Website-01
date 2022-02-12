@@ -64,7 +64,7 @@
                 <div class="container">
                     <div class="row d-flex align-items-center">
                         <div class="col-12 col-sm-3 col-md-2">
-                            <img class="logo-img" src="images/logo_03.png" alt="">
+                            <a href="index.html"><img class="logo-img" src="images/logo_03.png" alt=""></a>
                         </div>
                         <div class="col-12 col-sm-9 col-md-6">
                             <div class="search-form">
@@ -155,8 +155,36 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="address-btn-area">
-                                <button></button>
-                            </div>
+                                <!-- Button trigger modal -->
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="fas fa-plus"></i> ADD NEW ADDRESS
+                                </button>
+                                <!-- Modal -->
+                                <div class="modal fade address-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog address-modal-dialog">
+                                        <div class="modal-content .address-modal-content">
+                                            <div class="modal-header address-modal-header">
+                                                <img src="images/logo-2_03.png" alt="">
+                                                <h5 class="modal-title" id="exampleModalLabel"> GIVE YOUR DETAILS DEAR <i class="fas fa-grin-hearts"></i></h5>
+                                            </div>
+                                            <div class="modal-body address-modal-body">
+                                                <form action="" class="address-modal-form">
+                                                    <label for="modal-name-input">Name: </label>
+                                                    <input type="text" placeholder="Enter your name" id="modal-name-input">
+                                                    <label for="modal-address-input">Address: </label>
+                                                    <input type="text" placeholder="Enter your address" id="modal-address-input">
+                                                    <label for="modal-number-input">Phone: </label>
+                                                    <input type="text" placeholder="Enter your phone number" id="modal-number-input">
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer address-modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Submit</button>
+                                                <span class="tooltiptext">Feel free to submit, We care about your privacy <i class="fas fa-smile-wink"></i></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>    
                         </div>
                         <div class="col-md-8">
                             <div class="address-main-content">

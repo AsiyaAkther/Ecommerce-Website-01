@@ -1189,6 +1189,96 @@ input[required]:valid + label{
 /* **********************************************************************************
 *******************************ACCOUNT SUPPORT PAGE DESIGN END*****************************
 ********************************************************************************** */
+#address-content-section{
+   padding-top:30px;
+}
+#address-content-section .address-btn-area button{
+    width:100%;
+    background-color: var(--border-color);
+    border: 1px solid var(--border-color);
+    color:var(--primary-color);
+    font-size: 1.8rem;
+    padding:10px 0;
+    border-radius: 10px;
+}
+#address-content-section .address-btn-area button .fa-plus{
+    color:var(--primary-color);
+    background-color: transparent;
+    font-size: 1.8rem;
+}
+.address-btn-area .address-modal-body form{
+    padding-top:30px;
+}
+.address-btn-area .address-modal-body label{
+    text-transform: uppercase;
+    font-size:1.3rem;
+    font-weight:700;
+    width:25%;
+}
+.address-btn-area .address-modal-body input{
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    padding:10px;
+    width:73%;
+    border:none;
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(230,228,228,0.38); 
+    box-shadow: 0px 0px 5px 3px rgba(230,228,228,0.38);
+}
+.address-btn-area .address-modal .address-modal-dialog{
+    max-width:700px;
+}
+.address-btn-area .address-modal-footer{
+    border-top:none;
+    text-align: right;
+    padding-top:50px;
+}
+#address-content-section .address-btn-area .address-modal-footer button{
+    width:25%;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    position:relative;
+}
+#address-content-section .address-btn-area .address-modal-footer .tooltiptext{
+    font-size:1.2rem;
+    font-weight:700;
+    color:var(--primary-color);
+    background:var(--border-color);
+    padding:10px;
+    border-radius: 50px;
+    position:absolute;
+    bottom:16%;
+    right:0;
+    
+}
+#address-content-section .address-btn-area .address-modal-footer .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 80%;
+    margin-left: -5px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: var(--border-color) transparent transparent transparent;
+  }
+#address-content-section .address-btn-area .address-modal-header{
+    justify-content: start;
+    border-bottom:none;
+}
+#address-content-section .address-btn-area .address-modal-header h5{
+    margin-left:20px;
+    font-size: 1.5rem;
+    font-weight:700;
+    color:var(--primary-color);
+}
+/* **********************************************************************************
+*******************************ADDRESS PAGE DESIGN START*****************************
+********************************************************************************** */
+
+/* **********************************************************************************
+*******************************ADDRESS PAGE DESIGN END*****************************
+********************************************************************************** */
 
 /* ************* RESPONSIVE DESIGN FOR MOBILE VERSION STRAT HERE *********************************** */
 
