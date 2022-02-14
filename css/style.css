@@ -1347,17 +1347,36 @@ input[required]:valid + label{
      color:var(--primary-color);
      padding-right: 50px;
  }
- .address-main-content .send-btn-address{
+ .address-details .address-details-btn .dlt-btn:hover{
+    color:#3399ff;
+    transition:1s;
+}
+.address-details .address-details-btn .edit-btn:hover{
+    color:var(--primary-color);
+    transition:1s;
+}
+.address-main-content .send-btn-address{
      margin-top: 50px;
- }
- .address-main-content .send-btn-address a{
+}
+.address-main-content .send-btn-address a{
      padding:10px 50px;
      font-size: 1.6rem;
      background-color: var(--primary-color);
      text-transform: uppercase;
      border:1px solid var(--primary-color);
      font-weight: 700;
- }
+     transition: 1s;
+}
+.address-main-content .send-btn-address a:hover{
+    color:var(--primary-color);
+    background-color:transparent;
+    border:1px solid var(--primary-color);
+    transition: 1s;
+}
+.address-main-content .send-btn-address a:hover .add-paper-icon{
+    color:var(--primary-color);
+    transition: 1s;
+}
 /* **********************************************************************************
 *******************************ADDRESS PAGE DESIGN END*****************************
 ********************************************************************************** */
