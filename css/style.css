@@ -1380,6 +1380,31 @@ input[required]:valid + label{
 /* **********************************************************************************
 *******************************ADDRESS PAGE DESIGN END*****************************
 ********************************************************************************** */
+/* **********************************************************************************
+*******************************ORDER PAGE DESIGN START*****************************
+********************************************************************************** */
+#order-section{
+    padding:20px 0;
+}
+#order-section-content{
+    padding:60px 0;
+}
+#order-section #order-section-content table thead tr th{
+    border:none;
+    font-size: 1.3rem;
+    padding:0 10px;
+}
+#order-section-content tbody,#order-section-content tbody tr,#order-section-content tbody td{
+    border:1px solid #dee2e6;
+}
+#order-section-content tbody tr th,#order-section-content tbody tr td{
+    font-size: 1.2rem;
+    padding:0 10px;
+    width:150px;
+}
+/* **********************************************************************************
+*******************************ORDER PAGE DESIGN END*****************************
+********************************************************************************** */
 
 /* ************* RESPONSIVE DESIGN FOR MOBILE VERSION STRAT HERE *********************************** */
 
