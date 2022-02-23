@@ -21,6 +21,9 @@ body{
     box-sizing: border-box;
     overflow-x: hidden;
 }
+.order-table-custome-text-color{
+    color: #999;
+}
 /* for all body */
 /* **********************************************************************************
 *******************************HOME PAGE DESIGN START*****************************
@@ -1392,15 +1395,66 @@ input[required]:valid + label{
 #order-section #order-section-content table thead tr th{
     border:none;
     font-size: 1.3rem;
-    padding:0 10px;
+    padding:10px 20px;
 }
 #order-section-content tbody,#order-section-content tbody tr,#order-section-content tbody td{
     border:1px solid #dee2e6;
 }
 #order-section-content tbody tr th,#order-section-content tbody tr td{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding:0 10px;
+    width:90px;
+}
+#order-section-content tbody tr{
+    height:130px;
+}
+#order-section-content tbody tr th{
+    padding-top: 50px;
+    padding-left: 10px;
+}
+#order-section-content tbody tr .item{
+    width:200px;
+    color:var(--primary-color);
+    padding-top: 25px;
+    padding-left: 10px;
+}
+#order-section-content tbody tr .vendor{
+    color:var(--primary-color);
+    padding-top: 50px;
+    padding-left: 30px;
+}
+#order-section-content tbody tr .total{
     width:150px;
+    padding-top: 35px;
+    padding-left: 15px;
+}
+#order-section-content tbody tr .total p{
+    margin-bottom: 0.5rem;
+}
+#order-section-content tbody tr .shipping{
+    width:150px;
+    color:#999;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+#order-section-content tbody tr .finalize{
+    width:200px;
+    color:#999;
+    padding-top: 35px;
+    padding-left: 20px;
+}
+#order-section-content tbody tr .finalize p{
+    margin-bottom:0.5rem;
+}
+#order-section-content tbody tr .status{
+    color:#33cc99;
+    padding-top: 50px;
+    padding-left: 25px;
+}
+#order-section-content tbody tr .actions{
+    color:#ffcc33;
+    padding-top: 50px;
+    padding-left: 35px;
 }
 /* **********************************************************************************
 *******************************ORDER PAGE DESIGN END*****************************
